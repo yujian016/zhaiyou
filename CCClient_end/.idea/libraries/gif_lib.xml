@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gif-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/gif-lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

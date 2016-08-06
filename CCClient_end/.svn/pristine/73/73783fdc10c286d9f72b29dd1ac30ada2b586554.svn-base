@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_digital_header_title"
+            style="@style/header_title_withshool_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="消息中心" />
+
+        <ImageButton
+            android:id="@+id/ib_digital_goback"
+            style="@style/header_left_goback_style" />
+    </RelativeLayout>
+
+    <com.ccc.www.view.XListView
+        android:id="@+id/act_messagecenter_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

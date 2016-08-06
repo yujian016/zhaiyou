@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <!-- home_header -->
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_digital_header_title"
+            style="@style/header_title_withshool_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="潮流数码" />
+
+        <ImageButton
+            android:id="@+id/ib_digital_goback"
+            style="@style/header_left_goback_style" />
+
+        <ImageView
+            android:id="@+id/iv_proxysockcartcount"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/cart_white" />
+    </RelativeLayout>
+
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/digital_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Digital_ad -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_digital_ad"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/vp_digital_ad"
+            android:orientation="vertical"
+            android:padding="6dp" >
+
+            <LinearLayout
+                android:id="@+id/ad_digital_dot_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- loadFragment -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_digital"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/activity_digital.xml -->

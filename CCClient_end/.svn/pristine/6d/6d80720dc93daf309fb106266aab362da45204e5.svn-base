@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kd">
+        <item>包邮</item>
+        <item>送货上门</item>
+    </string-array>
+</resources>

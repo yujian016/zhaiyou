@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_register_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_register_title"
+            style="@style/header_title_tv_style"
+            android:text="用户注册协议" />
+
+        <ImageButton
+            android:id="@+id/ib_register_close"
+            style="@style/header_left_close_style" />
+    </RelativeLayout>
+    
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp" >
+
+            <ListView
+                android:id="@+id/act_useragreementdetail_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null" >
+            </ListView>
+        </LinearLayout>
+
+</LinearLayout>

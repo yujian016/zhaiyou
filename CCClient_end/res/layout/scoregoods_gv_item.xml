@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ImageView
+        android:id="@+id/iv_scoregoods_log"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/ll_score_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/jfsc_jf" />
+
+        <TextView
+            android:id="@+id/tv_scoregoods_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="积分:60"
+            android:textColor="#f00"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/jfsc_kc" />
+
+        <TextView
+            android:id="@+id/tv_scoregoods_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="剩余:8"
+            android:textColor="@color/col_102"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_scoregoods_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:maxLines="2"
+        android:text="门票"
+        android:textColor="@color/col_102"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_scoregoods_exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="立即兑换"
+        android:textColor="@drawable/selector_btntxt"
+        android:textSize="11sp" />
+
+</LinearLayout>

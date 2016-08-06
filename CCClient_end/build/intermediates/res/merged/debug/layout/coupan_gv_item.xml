@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_coupan_log"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/ll_coupan_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_coupan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="京东商城优惠券"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_coupan_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="剩余:8"
+            android:textColor="#99000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/coupan_gv_item.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/item_shopgoods_img"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@null"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/item_shopgoods_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:maxLines="2"
+        android:text="门票"
+        android:textColor="@color/col_102"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_score_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/item_shopgoods_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="￥:3888"
+            android:textColor="#FF4600"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/goodsadapter_more" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/item_shopgoods.xml -->

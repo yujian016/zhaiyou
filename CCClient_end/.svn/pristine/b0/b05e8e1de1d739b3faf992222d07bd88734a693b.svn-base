@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_apply"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            style="@style/header_title_tv_style"
+            android:text="申请代理" />
+
+        <ImageButton
+            android:id="@+id/ib_apply_proxy_close"
+            style="@style/header_left_close_style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/apply_open_shop_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <!-- 身份证 -->
+
+            <TextView
+                android:id="@+id/tv_input_idcard_no_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_apply_select_shop_log"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:text="身份证号" />
+
+            <EditText
+                android:id="@+id/et_input_idcard_no_proxy"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tv_input_idcard_no_proxy"
+                android:background="@drawable/apply_open_shop_edit_bg"
+                android:hint="输入身份证号码"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+            <!-- 学生证 -->
+
+            <TextView
+                android:id="@+id/tv_input_stucard_no_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_input_idcard_no_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:text="学生证号" />
+
+            <EditText
+                android:id="@+id/et_input_stucard_no_proxy"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/et_input_idcard_no_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tv_input_stucard_no_proxy"
+                android:background="@drawable/apply_open_shop_edit_bg"
+                android:hint="输入学生证号"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+            <!-- 手机号码 -->
+
+            <TextView
+                android:id="@+id/tv_input_stu_class_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_input_stucard_no_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="29dp"
+                android:text="手机号码" />
+
+            <EditText
+                android:id="@+id/et_input_stu_class_proxy"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/et_input_stucard_no_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tv_input_stu_class_proxy"
+                android:background="@drawable/apply_open_shop_edit_bg"
+                android:hint="输入手机号码"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+            <!-- 店铺名称 -->
+
+            <TextView
+                android:id="@+id/tv_input_stu_class_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_input_stu_class_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="29dp"
+                android:text="店铺名称" />
+
+            <EditText
+                android:id="@+id/et_input_stu_class_shopname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/et_input_stu_class_proxy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tv_input_stu_class_name"
+                android:background="@drawable/apply_open_shop_edit_bg"
+                android:hint="输入店铺名称"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_input_empty_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tv_input_stu_class_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="送货方式" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/send_status_ssc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="送上床" />
+
+                <RadioButton
+                    android:id="@+id/send_status_sdlx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="送到楼下" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="起送金额" />
+
+            <EditText
+                android:id="@+id/start_send_money"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/apply_open_shop_edit_bg"
+                android:hint="输入金额"
+                android:paddingLeft="5dp"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="营业状态" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="营业" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="休息" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_apply_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn"
+        android:text="申请"
+        android:textColor="@drawable/selector_btntxt"
+        android:textSize="13sp" />
+
+</LinearLayout>

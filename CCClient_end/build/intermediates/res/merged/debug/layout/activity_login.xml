@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_login_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_login_title"
+            style="@style/header_title_tv_style"
+            android:text="用户登录" />
+
+        <ImageButton
+            android:id="@+id/ib_login_close"
+            style="@style/header_left_close_style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_login_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_bg"
+            android:hint="输入用户名"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_login_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edit_bg"
+            android:hint="输入密码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_btn"
+            android:text="登录"
+            android:textColor="@drawable/selector_btntxt"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_forget_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="忘记密码?" />
+
+            <TextView
+                android:id="@+id/tv_reg_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:text="立即注册" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/activity_login.xml -->

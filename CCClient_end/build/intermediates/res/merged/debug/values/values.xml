@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="kd">
+        <item>包邮</item>
+        <item>送货上门</item>
+    </string-array>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/test_shop_category.xml -->
+    <eat-comment/>
+    <string-array name="spingarr">
+        <item>精品服装</item>
+        <item>进口饰品</item>
+        <item>运动服饰</item>
+        <item>数码产品</item>
+    </string-array>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="circularProgressBarStyle"/>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="color" name="selectedColor"/>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr name="siArrowPosition">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+    </attr>
+    <attr name="siBorderType">
+        <enum name="stroke" value="0"/>
+        <enum name="fill" value="1"/>
+    </attr>
+    <attr name="siStrokeCap">
+        <enum name="butt" value="0"/>
+        <enum name="round" value="1"/>
+        <enum name="square" value="2"/>
+    </attr>
+    <attr name="siStrokeJoin">
+        <enum name="bevel" value="0"/>
+        <enum name="miter" value="1"/>
+        <enum name="round" value="2"/>
+    </attr>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_bar_txt_color">#969696</color>
+    <color name="actionbar_def_color">#3C3C3C</color>
+    <color name="actionbar_pres_color">#3f80dc</color>
+    <color name="actionbar_sel_color">#1c1c1c</color>
+    <color name="all_members_bg_color">#f0f1f3</color>
+    <color name="assgintext">#3E3E3E</color>
+    <color name="backgroud">#ffffffff</color>
+    <color name="basicinfo_bg">#F6F2C3</color>
+    <color name="black">#000000</color>
+    <color name="blue">#33b5e5</color>
+    <color name="buttom_noselect_col">#909090</color>
+    <color name="c_bg">#f2f2f2</color>
+    <color name="c_line">#ccc</color>
+    <color name="chat_detail_hit_color">#3C3C3C</color>
+    <color name="chat_detail_item_hit_color">#555555</color>
+    <color name="chat_detail_split_line_color">#d3d3d3</color>
+    <color name="chat_text_color">#373334</color>
+    <color name="circular_progressbar_bg_color">#D0D4D8</color>
+    <color name="circular_progressbar_color">#3F80DD</color>
+    <color name="col_102">#666666</color>
+    <color name="col_102_203_255">#66CBFF</color>
+    <color name="col_153">#999999</color>
+    <color name="col_166">#A6A6A6</color>
+    <color name="col_187">#BBBBBB</color>
+    <color name="col_200">#C8C8C8</color>
+    <color name="col_218_218_221">#DADADD</color>
+    <color name="col_227_3_4">#E30304</color>
+    <color name="col_228">#E4E4E4</color>
+    <color name="col_230">#E6E6E6</color>
+    <color name="col_235">#EBEBEB</color>
+    <color name="col_238">#EEEEEE</color>
+    <color name="col_244">#F4F4F4</color>
+    <color name="col_244_132_56">#F48438</color>
+    <color name="col_250">#FAFAFA</color>
+    <color name="col_250_44_98">#FA2C62</color>
+    <color name="col_254_155_88">#FE9B58</color>
+    <color name="col_255_103_154">#FF679A</color>
+    <color name="col_255_134_51">#FF8633</color>
+    <color name="col_255_154_102">#FF9A66</color>
+    <color name="col_255_182_90">#FFB65A</color>
+    <color name="col_30_189_169">#1EBDA9</color>
+    <color name="col_51">#333333</color>
+    <color name="col_51_153_254">#3399FE</color>
+    <color name="col_52">#343434</color>
+    <color name="col_59_200_121">#3BC879</color>
+    <color name="col_72">#484848</color>
+    <color name="col_89_89_127">#59537F</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_styles.xml -->
+    <eat-comment/>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_button_background_color">#415dae</color>
+    <color name="com_facebook_button_background_color_disabled">#bdc1c9</color>
+    <color name="com_facebook_button_background_color_pressed">#2f477a</color>
+    <color name="com_facebook_button_like_background_color_selected">#7c8fc8</color>
+    <color name="com_facebook_button_login_silver_background_color">#f4f6f8</color>
+    <color name="com_facebook_button_login_silver_background_color_pressed">#e9eaf0</color>
+    <color name="com_facebook_button_send_background_color">#0084ff</color>
+    <color name="com_facebook_button_send_background_color_pressed">#006fff</color>
+    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
+    <color name="com_facebook_likeview_text_color">#6a7180</color>
+    <color name="com_facebook_share_button_text_color">#FFFFFF</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="contacts_pinner_bg">#F2F8F8F8</color>
+    <color name="contacts_pinner_txt">#858585</color>
+    <color name="contacts_txt_color">#0479FB</color>
+    <color name="content_color">#333333</color>
+    <color name="contentbg">#EFEFEF</color>
+    <color name="conv_list_split_line_color">#d6d6d6</color>
+    <color name="darkgreen">#006400</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="default_cursor_color">#8db4eb</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="dialog_select_color">#d4d4d4</color>
+    <color name="divider_line">#CCCCCC</color>
+    <color name="etv_com_verify_value">#cccccc</color>
+    <color name="fildpwd_textbg_color">#EFEFEF</color>
+    <color name="finish_btn_clickable_color">#6fd66b</color>
+    <color name="finish_btn_unclickable_color">#b9ebb8</color>
+    <color name="friend_content_text_color">#7f7f7f</color>
+    <color name="gray">#808080</color>
+    <color name="green">#669900</color>
+    <color name="grey">#808080</color>
+    <color name="header_normal">#ffe74c3c</color>
+    <color name="header_pressed">#ffc0392b</color>
+    <color name="height_green">#2db871</color>
+    <color name="home_buttom_check">#F48438</color>
+    <color name="home_buttom_nocheck">#999999</color>
+    <color name="home_mime_division">#DDDDDD</color>
+    <color name="home_search_bg">#93D3B3</color>
+    <color name="home_take_selectcolor">#2BB871</color>
+    <color name="home_take_unselectcolor">#666666</color>
+    <color name="issue_job_main_text">#666666</color>
+    <color name="issue_job_seperate">#cccccc</color>
+    <color name="item_click_bg_color">#dddddd</color>
+    <color name="job_manage_press_text">#f29251</color>
+    <color name="job_manage_unpress_text">#333333</color>
+    <color name="jpush_blue">#3f80dc</color>
+    <color name="leter_hint_end_color">#0ae936</color>
+    <color name="letter_hint_start_color">#19892f</color>
+    <color name="light_blue">#8CA4FF</color>
+    <color name="login_btn_def_color">#98FB98</color>
+    <color name="login_btn_sel_color">#006400</color>
+    <color name="login_form_hint">#ffb5b5b5</color>
+    <color name="login_split_line_color">#c1d3cc</color>
+    <color name="login_txt_hint_color">#555555</color>
+    <color name="loginbtn">#FFBB2A</color>
+    <color name="main_view_split_line_color">#C8C8C8</color>
+    <color name="me_info_edit_color">#2d2d2d</color>
+    <color name="me_info_hint_color">#cfcdce</color>
+    <color name="me_no_picture_color">#e1e1e1</color>
+    <color name="me_split_line_color">#d0d0d0</color>
+    <color name="menu_item_back_pres_color">#3773cb</color>
+    <color name="menu_item_click_color">#346fc3</color>
+    <color name="menu_section_header">#FFDDDDDD</color>
+    <color name="msg_list_item_sel_color">#A3C2EF</color>
+    <color name="msg_text">#ccc</color>
+    <color name="network_disconnected_bg_color">#ffdfe0</color>
+    <color name="origion">#f09f47</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="re_login_btn_def_color">#6fd66b</color>
+    <color name="red">#e1320e</color>
+    <color name="regist_photo_focus_color">#3F80DD</color>
+    <color name="register_split_line_color">#c2d4ec</color>
+    <color name="relogin_txt_color">#555555</color>
+    <color name="reset_password_title_color">#4e4e4e</color>
+    <color name="result_text">#ff000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sec_text">#666</color>
+    <color name="section_color">#f8f8f8</color>
+    <color name="section_text_color">#858585</color>
+    <color name="select_friend_item_split_color">#dddddd</color>
+    <color name="sidebar_text_color">#0a6afd</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="soft_green">#65d184</color>
+    <color name="swich_user_sel_color">#3F80DC</color>
+    <color name="tab_selected_text_color">#339988</color>
+    <color name="tab_unselected_text_color">#666666</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/tb_munion_strings.xml -->
+    <eat-comment/>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="text_color">#999999</color>
+    <color name="text_press">#333</color>
+    <color name="theme">#339a89</color>
+    <color name="thrid_text">#999</color>
+    <color name="title_bg">#f2f2f2</color>
+    <color name="title_text">#333</color>
+    <color name="title_tv_color">#ffffffff</color>
+    <color name="titlebar_bg_color">#3C3C3C</color>
+    <color name="topbar_bg">#1FADFF</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="tv_com_verify_key">#333333</color>
+    <color name="tv_com_verify_state_doing">#f19250</color>
+    <color name="tv_com_verify_state_udoing">#666666</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_colors.xml -->
+    <eat-comment/>
+    <color name="umeng_socialize_color_group">#2c3035</color>
+    <color name="umeng_socialize_comments_bg">#F4F4F4</color>
+    <color name="umeng_socialize_divider">#E6E6E6</color>
+    <color name="umeng_socialize_edit_bg">#C4C4C4</color>
+    <color name="umeng_socialize_grid_divider_line">#F8F8F8</color>
+    <color name="umeng_socialize_list_item_bgcolor">#FFFFFF</color>
+    <color name="umeng_socialize_list_item_textcolor">#333333</color>
+    <color name="umeng_socialize_text_friends_list">#959696</color>
+    <color name="umeng_socialize_text_share_content">#666666</color>
+    <color name="umeng_socialize_text_time">#999999</color>
+    <color name="umeng_socialize_text_title">#464f61</color>
+    <color name="umeng_socialize_text_ucenter">#595959</color>
+    <color name="umeng_socialize_ucenter_bg">#EEEEEE</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="viewfinder_frame">#ff0000ff</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#cb000000</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow_light">#ffefa717</color>
+    <color name="yellow_page_search_bg">#fffffbfa</color>
+    <declare-styleable name="ActionBar"><attr format="string" localization="suggested" name="title"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="HoloCircularProgressBar"><attr format="dimension" name="stroke_width"/><attr format="float" name="progress"/><attr format="float" name="marker_progress"/><attr format="color" name="progress_color"/><attr format="color" name="progress_background_color"/><attr format="boolean" name="thumb_visible"/><attr format="boolean" name="marker_visible"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ShaderImageView"><attr format="boolean" name="siSquare"/><attr format="color" name="siBorderColor"/><attr format="dimension" name="siBorderWidth"/><attr format="float" name="siBorderAlpha"/><attr format="integer|reference" name="siForeground"/><attr format="dimension" name="siRadius"/><attr name="siArrowPosition"/><attr format="dimension" name="siTriangleHeight"/><attr format="integer|reference" name="siShape"/><attr name="siBorderType"/><attr name="siStrokeCap"/><attr name="siStrokeJoin"/><attr format="dimension" name="siStrokeMiter"/></declare-styleable>
+    <declare-styleable name="StickyListHeadersListView"><attr format="reference" name="stickyListHeadersListViewStyle"/><attr name="android:clipToPadding"/><attr name="android:scrollbars"/><attr name="android:overScrollMode"/><attr name="android:padding"/><attr name="android:paddingLeft"/><attr name="android:paddingTop"/><attr name="android:paddingRight"/><attr name="android:paddingBottom"/><attr name="android:fadingEdgeLength"/><attr name="android:requiresFadingEdge"/><attr name="android:cacheColorHint"/><attr name="android:choiceMode"/><attr name="android:drawSelectorOnTop"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:listSelector"/><attr name="android:scrollingCache"/><attr name="android:scrollbarStyle"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="android:transcriptMode"/><attr name="android:stackFromBottom"/><attr format="boolean" name="hasStickyHeaders"/><attr format="boolean" name="isDrawingListUnderStickyHeader"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="board_column"><attr format="integer" localization="suggested" name="column"/></declare-styleable>
+    <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
+    <declare-styleable name="drop_down_list_attr"><attr format="boolean" name="isDropDownStyle"/><attr format="boolean" name="isOnBottomStyle"/><attr format="boolean" name="isAutoLoadOnBottom"/></declare-styleable>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="add_friend_txt_size">18sp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <dimen name="alphabet_size">12dip</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="chat_head_icon_size">40dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_styles.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_share_button_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_left">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_right">16dp</dimen>
+    <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
+    <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="contact_item_padding_left">5dp</dimen>
+    <dimen name="default_btn_radius">5dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_padding_bottom">5dp</dimen>
+    <dimen name="default_padding_left">15dp</dimen>
+    <dimen name="default_padding_right">15dp</dimen>
+    <dimen name="default_padding_top">5dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="drop_down_list_header_padding_bottom">5dp</dimen>
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">0dp</dimen>
+    <dimen name="item_head_icon_size">50dp</dimen>
+    <dimen name="login_email_txt_size">18sp</dimen>
+    <dimen name="login_regist_head_icon_size">80dp</dimen>
+    <dimen name="me_head_icon_size">75dp</dimen>
+    <dimen name="msg_del_offset">70dp</dimen>
+    <dimen name="save_btn_height">30dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="speaker_image_size">36dp</dimen>
+    <dimen name="text_default_size">12sp</dimen>
+    <dimen name="text_large_size">22sp</dimen>
+    <dimen name="text_medium_size">18sp</dimen>
+    <dimen name="text_minimum_size">10sp</dimen>
+    <dimen name="text_normal_size">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_small_size">14sp</dimen>
+    <dimen name="title_bar_height">40dp</dimen>
+    <dimen name="title_bar_txt_size">20sp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <dimen name="umeng_socialize_pad_window_height">350dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580dip</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="vendor_image_size">100dp</dimen>
+    <dimen name="view_left_right_padding">28dp</dimen>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="loading_frame_interval">80</integer>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_update_string.xml -->
+    <eat-comment/>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">关于</string>
+    <string name="about_date">\n4月6日</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="actionbar_contact">通讯录</string>
+    <string name="actionbar_conversation">会话</string>
+    <string name="actionbar_me">我</string>
+    <string name="actionbar_msg">聊天</string>
+    <string name="add">添加</string>
+    <string name="add_friend">添加朋友</string>
+    <string name="add_friend_to_group_title">添加好友到群组</string>
+    <string name="add_to_blacklist">加入黑名单</string>
+    <string name="add_to_blacklist_success_hint">成功加入黑名单</string>
+    <string name="add_to_friend">加为好友</string>
+    <string name="added">已添加</string>
+    <string name="adding_group_member_hint">正在增加群成员</string>
+    <string name="adding_hint">正在添加</string>
+    <string name="afternoon">下午</string>
+    <string name="all_day_remind_hit">全天提醒</string>
+    <string name="all_group_members">全部群成员</string>
+    <string name="app_name">宅友</string>
+    <string name="area">地区</string>
+    <string name="avatar_modify_succeed_toast">头像修改成功</string>
+    <string name="back">返回</string>
+    <string name="background_msg_remind_time">后台消息免打扰时段</string>
+    <string name="before_dawn">凌晨</string>
+    <string name="begin_time">开始时间</string>
+    <string name="birthday">出生日期</string>
+    <string name="camera_not_prepared">摄像头尚未准备好</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_record_voice_hint">松开手指，取消发送</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="change_avatar">修改头像</string>
+    <string name="change_nickname_hint">修改此昵称只会在本群中显示</string>
+    <string name="change_old_password_hit">原密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="change_password_hit">填写密码</string>
+    <string name="change_password_message">您的密码已被修改，请重新登录</string>
+    <string name="change_password_re_hit">再次填写密码</string>
+    <string name="change_password_title">设置密码</string>
+    <string name="change_pwd_tip">修改密码前请输入原密码</string>
+    <string name="change_user_btn">切换账号</string>
+    <string name="chat_detail_add">添加</string>
+    <string name="chat_detail_title">聊天详情</string>
+    <string name="chat_peoples_num">目前已有1名参与人</string>
+    <string name="choose">选择</string>
+    <string name="choose_album_title">选择相册</string>
+    <string name="clear_history_confirm_title">确定清空聊天记录？</string>
+    <string name="close_all_day_remind">关闭全天提醒后，消息只在设定时间内提醒</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_facebook_strings.xml -->
+    <eat-comment/>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_strings.xml -->
+    <eat-comment/>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_facebook_strings.xml -->
+    <eat-comment/>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_strings.xml -->
+    <eat-comment/>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="combine_title">(%s)</string>
+    <string name="commit">确认</string>
+    <string name="common">CommonActivity</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="connect_failed_toast">连接服务器失败，请稍后重试</string>
+    <string name="copy">复制</string>
+    <string name="copy_toast">已复制</string>
+    <string name="create_file_failed">创建文件失败</string>
+    <string name="create_group">创建群聊</string>
+    <string name="create_user">我们正在建立您的个人档案</string>
+    <string name="creating_hint">创建中</string>
+    <string name="crop_image_title">裁剪头像</string>
+    <string name="cross_app_key">跨应用</string>
+    <string name="custom_platform_share">自定义平台分享</string>
+    <string name="day">日</string>
+    <string name="delete">删除</string>
+    <string name="delete_confirm_hint">确定删除？</string>
+    <string name="delete_conv">删除该聊天</string>
+    <string name="delete_group_by_creator">群主解散了此群</string>
+    <string name="delete_group_confirm_title">确定删除并退出群聊？</string>
+    <string name="delete_member_confirm_hint">确定删除此成员？</string>
+    <string name="deleted_by_creator">你被请出了群聊</string>
+    <string name="deleting_group_member_hint">正在删除群成员</string>
+    <string name="deleting_hint">删除中</string>
+    <string name="demo_version_name">demo版本号:%s</string>
+    <string name="description">描述</string>
+    <string name="detail_info">个人资料</string>
+    <string name="disturb_description">开启后，在设定时间段内收到新消息将不会响铃或震动</string>
+    <string name="dnd_sub_hit">勿扰模式</string>
+    <string name="download_completed_toast">下载完成</string>
+    <string name="downloading_hint">正在下载</string>
+    <string name="draft">[草稿]</string>
+    <string name="edit_friend_info_count">200</string>
+    <string name="edit_signature_count">30</string>
+    <string name="edit_signature_title">编辑个性签名</string>
+    <string name="end_time">结束时间</string>
+    <string name="error">Error</string>
+    <string name="evernote_share">印象笔记分享</string>
+    <string name="exit_group_by_creator">被请出了群聊</string>
+    <string name="exit_group_event">退出了群聊</string>
+    <string name="exiting_group_toast">正在退出</string>
+    <string name="facebook_app_id">487692214752558</string>
+    <string name="fb_app_id">567261760019884</string>
+    <string name="fb_login">Facebook登录</string>
+    <string name="fb_logout">Facebook注销</string>
+    <string name="fb_share">Facebook分享</string>
+    <string name="fetch_user_info_failed">用户信息获取失败</string>
+    <string name="file_fetch_failed">文件获取失败</string>
+    <string name="file_not_found_toast">文件丢失</string>
+    <string name="finish">完成</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_flickr_strings.xml -->
+    <eat-comment/>
+    <string name="flickr_content">Flickr只支持图片分享</string>
+    <string name="flickr_no_client">未安装Flickr客户端</string>
+    <string name="flickr_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="flickr_share">flickr分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_flickr_strings.xml -->
+    <eat-comment/>
+    <string name="flickr_showword">Flickr</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="forward_msg">转发</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_foursquare_strings.xml -->
+    <eat-comment/>
+    <string name="foursquare_content">Foursquare只支持纯图片分享</string>
+    <string name="foursquare_no_client">未安装Foursquare客户端</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="foursquare_share">FourSquare分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_foursquare_strings.xml -->
+    <eat-comment/>
+    <string name="foursquare_showword">Foursquare</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="friday">周五</string>
+    <string name="friend_info">好友信息</string>
+    <string name="friend_opt_change_name">修改备注</string>
+    <string name="friend_opt_delete">删除好友</string>
+    <string name="friend_opt_detail">详细资料</string>
+    <string name="friend_request_hit">请你输入你的添加好友请求</string>
+    <string name="friend_request_input_hit">我是…</string>
+    <string name="friend_request_title">新朋友</string>
+    <string name="game">GameActivity</string>
+    <string name="get_photo">　使用照片</string>
+    <string name="goto_common">普通Activity</string>
+    <string name="goto_facebook">添加Facebook分享</string>
+    <string name="goto_game">游戏Activity</string>
+    <string name="goto_video">摇一摇视频截图Activity</string>
+    <string name="group">群聊</string>
+    <string name="group_chat_history_hit">查找聊天内容</string>
+    <string name="group_clear_history_hit">清空聊天记录</string>
+    <string name="group_exit_btn">删除并退出</string>
+    <string name="group_my_name_hit">我在本群昵称</string>
+    <string name="group_name_hit">群聊名称</string>
+    <string name="group_name_not_null_toast">名称不能为空</string>
+    <string name="group_notification">[群成员变动]</string>
+    <string name="group_people_num_hit">群人数上限</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_confirm_password">请再次输入</string>
+    <string name="hint_reset_password">请设置登录密码</string>
+    <string name="info_null">未填写</string>
+    <string name="input_area_error">请输入您所在的地区</string>
+    <string name="input_location_title">输入地区</string>
+    <string name="input_password_error_toast">输入密码错误，请重新输入</string>
+    <string name="input_signature_toast">请输入您的个性签名</string>
+    <string name="instagram_share">Instagram分享</string>
+    <string name="join_group_toast">加入了群聊</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_kakao_strings.xml -->
+    <eat-comment/>
+    <string name="kakao_content">Kakao Talk只支持图片、文本分享</string>
+    <string name="kakao_no_client">未安装Kakao Talk客户端</string>
+    <string name="kakao_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="kakao_share">Kakao Talk分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_kakao_strings.xml -->
+    <eat-comment/>
+    <string name="kakao_showword">Kakao Talk</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="laiwang_share">来往分享</string>
+    <string name="later_setting">稍后设置</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_line_strings.xml -->
+    <eat-comment/>
+    <string name="line_content">Line只支持文本，图片</string>
+    <string name="line_no_client">未安装Line客户端</string>
+    <string name="line_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="line_share">line分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_line_strings.xml -->
+    <eat-comment/>
+    <string name="line_showword">LINE</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_linkedin_strings.xml -->
+    <eat-comment/>
+    <string name="linkedin_content">linked只支持纯文本分享</string>
+    <string name="linkedin_no_client">未安装LinkedIn客户端</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="linkedin_share">LinkedIn分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_linkedin_strings.xml -->
+    <eat-comment/>
+    <string name="linkedin_showword">LinkedIn</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="load_failed_toast">加载失败</string>
+    <string name="load_origin_image">查看原图</string>
+    <string name="loading">正在加载</string>
+    <string name="local_picture_not_found_toast">暂无外部存储，某些本地图片不可预览</string>
+    <string name="login">登录</string>
+    <string name="login_hint">登录中</string>
+    <string name="login_out">退出登录</string>
+    <string name="login_qq">登录（QQ）</string>
+    <string name="login_qzone">登录（QQ空间）</string>
+    <string name="login_sina">登录（新浪微博）</string>
+    <string name="logout_confirm">确定退出登录？</string>
+    <string name="logout_qq">注销登录（QQ）</string>
+    <string name="logout_qzone">注销登录（QQ空间）</string>
+    <string name="logout_sina">注销登录（新浪微博）</string>
+    <string name="man">男</string>
+    <string name="members_in_chat">聊天成员</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/messenger_button_strings.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Send</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="modify_success_toast">修改成功</string>
+    <string name="modifying_hint">正在修改</string>
+    <string name="monday">周一</string>
+    <string name="month">月</string>
+    <string name="morning">早上</string>
+    <string name="move_to_cancel_hint">手指上滑，取消发送</string>
+    <string name="network_disconnected_hint">当前网络不可用, 请检查你的网络设置</string>
+    <string name="new_msg_remind_hit">新消息提醒</string>
+    <string name="nickname_hit">昵称</string>
+    <string name="nickname_not_null_toast">昵称不能为空</string>
+    <string name="nickname_save_failed">昵称保存失败</string>
+    <string name="night">晚上</string>
+    <string name="not_select_photo">你没有选择照片，请重新选择</string>
+    <string name="note_name">备注名</string>
+    <string name="ok">OK</string>
+    <string name="operation">操作</string>
+    <string name="origin_picture">原图</string>
+    <string name="parameter_illegal">参数值不合法</string>
+    <string name="password">密码</string>
+    <string name="password_change_success_toast">修改成功，请牢记新密码</string>
+    <string name="password_hit">用户密码</string>
+    <string name="password_length_illegal">密码长度要在4-128个字节之间</string>
+    <string name="password_not_match_toast">两次输入的密码不一致</string>
+    <string name="password_not_null_toast">密码不能为空</string>
+    <string name="password_same_to_previous">不能和原密码相同，请输入新密码</string>
+    <string name="pause">暂停</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="pick_picture_from_local">选择图片</string>
+    <string name="picture">图片</string>
+    <string name="picture_not_found">没有找到您想要的图片</string>
+    <string name="picture_num_limit_toast">你最多只能同时发送9张图片</string>
+    <string name="pinterest_share">Pinterest分享</string>
+    <string name="play">播放</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_pocket_strings.xml -->
+    <eat-comment/>
+    <string name="pocket_content">pocket只支持网页链接分享</string>
+    <string name="pocket_no_client">未安装pocket客户端</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pocket_share">Pocket分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_pocket_strings.xml -->
+    <eat-comment/>
+    <string name="pocket_showword">Pocket</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中…</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="quit">退出</string>
+    <string name="receive_new_msg_notification_hit">接收新消息通知</string>
+    <string name="receive_new_msg_vibration_hit">震动</string>
+    <string name="receive_new_msg_voice_hit">声音</string>
+    <string name="record_voice_hint">按住 说话</string>
+    <string name="record_voice_permission_denied">请在应用的权限管理中将使用录音选项设置为允许，
+        否则将无法使用录音功能</string>
+    <string name="record_voice_permission_request">若要使用语音功能，请选择允许录音</string>
+    <string name="register">注册</string>
+    <string name="register_failed_toast">注册失败</string>
+    <string name="register_username_hit">用户名(数字、字母、_ 组成)</string>
+    <string name="registering_hint">注册中</string>
+    <string name="remove_from_blacklist_hint">已从黑名单移除</string>
+    <string name="remove_from_no_disturb_list_hint">已移除免打扰</string>
+    <string name="resend_commit">重发</string>
+    <string name="resend_message_hint">重发该消息？</string>
+    <string name="reset_nickname_hint">好名字可以让你的朋友更加容易记住你。</string>
+    <string name="rest_record_time_hint">还可以说%s秒</string>
+    <string name="saturday">周六</string>
+    <string name="save">保存</string>
+    <string name="saving_hint">正在保存</string>
+    <string name="sdcard_not_exist_toast">暂无外部存储</string>
+    <string name="sdcard_not_prepare_toast">sdcard尚未准备好</string>
+    <string name="sdk_87x_871104">服务器返回错误</string>
+    <string name="sdk_87x_871201">请求超时，请检查您的网络</string>
+    <string name="sdk_87x_871303">用户名需以数字或字母开头，长度在4-128个字节之间，且不能带_ @ -以外的字符</string>
+    <string name="sdk_87x_871304">密码长度要在4-128个字节之间</string>
+    <string name="sdk_87x_871305">名称长度须小于64个字节</string>
+    <string name="sdk_87x_871309">消息所含文件不存在</string>
+    <string name="sdk_87x_871310">网络已断开，请检查网络连接</string>
+    <string name="sdk_87x_871311">用户未设定头像，下载头像失败</string>
+    <string name="sdk_87x_871312">ImageContent创建失败</string>
+    <string name="sdk_87x_871403">第三方上传失败，请稍后重试</string>
+    <string name="sdk_87x_871404">下载失败，请稍后重试</string>
+    <string name="sdk_87x_871501">appkey与appid不匹配或者token无效</string>
+    <string name="sdk_87x_871502">appkey无效</string>
+    <string name="sdk_87x_871503">appkey与platform不匹配</string>
+    <string name="sdk_87x_871504">push注册还未完成，请稍后重试</string>
+    <string name="sdk_87x_871505">包名不存在</string>
+    <string name="sdk_87x_871506">imei无效</string>
+    <string name="sdk_http_898005">uid不存在</string>
+    <string name="sdk_http_898006">此群已被删除</string>
+    <string name="sdk_http_898008">校验失败</string>
+    <string name="sdk_http_898009">APPKey不存在</string>
+    <string name="sdk_http_898010">请求失败，请稍候重试</string>
+    <string name="sdk_http_898030">系统繁忙，稍后重试</string>
+    <string name="sdk_http_899001">用户已存在</string>
+    <string name="sdk_http_899006">该群已被删除</string>
+    <string name="sdk_version">\nsdk版本号:</string>
+    <string name="search">搜索...</string>
+    <string name="search_friend_hit">邮箱/用户名/ID</string>
+    <string name="search_friend_title_bar">搜索结果</string>
+    <string name="search_hint">输入搜索标题</string>
+    <string name="searching_user">正在查找</string>
+    <string name="second">秒</string>
+    <string name="select_friend_title">选择朋友</string>
+    <string name="selected_num">(%s)</string>
+    <string name="send">发送</string>
+    <string name="send_message">发消息</string>
+    <string name="send_request">发送请求</string>
+    <string name="send_voice_hint">松开 结束</string>
+    <string name="sending_hint">正在发送</string>
+    <string name="server_800002">AppKey信息为空</string>
+    <string name="server_800003">AppKey未注册</string>
+    <string name="server_800004">用户ID为空</string>
+    <string name="server_800005">用户ID未注册(AppKey无该UID)</string>
+    <string name="server_800006">用户ID不存在(数据库中无该UID)</string>
+    <string name="server_800012">请重新登录</string>
+    <string name="server_800013">您的账号已登出，请重新登录</string>
+    <string name="server_801003">用户名不存在</string>
+    <string name="server_801004">密码错误</string>
+    <string name="server_802001">用户名为空</string>
+    <string name="server_803001">发送消息失败，状态存储异常</string>
+    <string name="server_803002">发送消息失败，系统网络异常</string>
+    <string name="server_803003">发送失败，目标用户未注册或不存在</string>
+    <string name="server_803004">发送失败，此群已被删除</string>
+    <string name="server_803005">您已被请出此群，不能发送消息</string>
+    <string name="server_803008">消息已发出，但被对方拒收了。</string>
+    <string name="server_803010">发送消息的频率超过限制，发送失败</string>
+    <string name="server_808003">讨论组数量已达上限，创建失败</string>
+    <string name="server_808004">群组名长度超出上限</string>
+    <string name="server_810003">用户不属于该群组</string>
+    <string name="server_810005">要添加的用户尚未注册</string>
+    <string name="server_810007">用户已存在</string>
+    <string name="server_810008">讨论组的成员数量已达上限，添加失败</string>
+    <string name="server_810009">该用户拥有的讨论组数量已达上限，添加失败</string>
+    <string name="server_811003">用户不在该讨论组中，删除成员失败</string>
+    <string name="server_812002">您已被请出此群，不能修改相关信息</string>
+    <string name="server_818001">要添加的黑名单列表为空，添加失败</string>
+    <string name="server_818002">要添加的黑名单列表中有成员不存在，添加失败</string>
+    <string name="server_818003">要添加的黑名单列表中有成员不能被添加，添加失败</string>
+    <string name="server_818004">要添加的黑名单列表中有成员重复添加，添加失败</string>
+    <string name="server_abnormal_toast">服务器返回异常，请重试</string>
+    <string name="server_return_error_toast">服务器返回格式错误</string>
+    <string name="set_do_not_disturb">消息免打扰</string>
+    <string name="set_do_not_disturb_success_hint">成功加入免打扰</string>
+    <string name="setting">设置</string>
+    <string name="setting_location_big_hit">修改地区</string>
+    <string name="setting_location_hit">地区</string>
+    <string name="setting_signature_hit">个信签名</string>
+    <string name="setting_username_big_hit">更改名字</string>
+    <string name="setting_username_hit">昵称</string>
+    <string name="sex">性别</string>
+    <string name="shake_openshare">注册摇一摇（打开分享面板）</string>
+    <string name="shake_scrshot">注册摇一摇（截图）</string>
+    <string name="shake_share">注册摇一摇截图（分享）</string>
+    <string name="share_by_qq">QQ分享</string>
+    <string name="share_by_weixin">微信分享</string>
+    <string name="share_by_yixin">易信分享</string>
+    <string name="sign">个性签名</string>
+    <string name="status_update">Updating Facebook status at </string>
+    <string name="stop">停止</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="sunday">周日</string>
+    <string name="symbol_second">\"</string>
+    <string name="system_error_toast">系统内部错误，请稍候重试</string>
+    <string name="take_monent">稍等片刻</string>
+    <string name="take_new_photo">拍摄照片</string>
+    <string name="take_photo">拍照</string>
+    <string name="take_scrshot">直接截图</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/tb_munion_strings.xml -->
+    <eat-comment/>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="thursday">周四</string>
+    <string name="time_format_accuracy">yyyy-MM-dd HH:mm </string>
+    <string name="time_format_hours">HH:mm</string>
+    <string name="time_format_year_month_day">yyyy年-MM月-dd日</string>
+    <string name="time_too_short_toast">时间太短！</string>
+    <string name="tuesday">周二</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_tumblr_strings.xml -->
+    <eat-comment/>
+    <string name="tumblr_content">Tumblr只支持文本，图片，图文分享</string>
+    <string name="tumblr_no_client">未安装Tumblr客户端</string>
+    <string name="tumblr_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="tumblr_share">tumblr分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_tumblr_strings.xml -->
+    <eat-comment/>
+    <string name="tumblr_showword">Tumblr</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="type_custom">[自定义消息]</string>
+    <string name="type_location">[位置]</string>
+    <string name="type_picture">[图片]</string>
+    <string name="type_voice">[语音]</string>
+    <string name="umeng_addfriend">添加好友</string>
+    <string name="umeng_auth">授权</string>
+    <string name="umeng_comment">评论相关</string>
+    <string name="umeng_comment1">用户信息</string>
+    <string name="umeng_comment2">本地登陆</string>
+    <string name="umeng_comment3">本地授权</string>
+    <string name="umeng_comment4">好友功能</string>
+    <string name="umeng_comment5">评论功能</string>
+    <string name="umeng_comment6">注销</string>
+    <string name="umeng_comment7">解决事例</string>
+    <string name="umeng_commentmodular">评论模块</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_common_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause: </string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="umeng_customlogin">自定义登陆</string>
+    <string name="umeng_deleauth">清除对应授权</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="umeng_getcommentlist">获取评论列表</string>
+    <string name="umeng_getfriendlist">获取好友列表</string>
+    <string name="umeng_loginqq">登陆QQ</string>
+    <string name="umeng_loginqzone">登陆QQ空间</string>
+    <string name="umeng_loginsina">登陆新浪</string>
+    <string name="umeng_logoutqq">登出QQ</string>
+    <string name="umeng_logoutsina">登出新浪</string>
+    <string name="umeng_logoutzone">登出QQ空间</string>
+    <string name="umeng_nativequery">本地登陆信息查询</string>
+    <string name="umeng_openshare">打开分享面板</string>
+    <string name="umeng_registershake">注册摇一摇</string>
+    <string name="umeng_sendcomment">发出评论</string>
+    <string name="umeng_shake">摇一摇</string>
+    <string name="umeng_shakeshare">摇一摇分享</string>
+    <string name="umeng_shakeshotscreen">摇一摇截屏</string>
+    <string name="umeng_share">分享</string>
+    <string name="umeng_share1">默认分享面板可编辑分享页</string>
+    <string name="umeng_share2">自定义分享面板可编辑分享页</string>
+    <string name="umeng_share3">单平台直接分享</string>
+    <string name="umeng_share4">多平台直接分享</string>
+    <string name="umeng_share5">默认分享面板可编辑分享页多平台</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_socialize_back" translatable="false">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment" translatable="false">评论</string>
+    <string name="umeng_socialize_comment_detail" translatable="false">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends" translatable="false">关注的好友</string>
+    <string name="umeng_socialize_img_des"/>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_laiwang_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_socialize_laiwang_default_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_msg_hor" translatable="false">小时前</string>
+    <string name="umeng_socialize_msg_min" translatable="false">分钟前</string>
+    <string name="umeng_socialize_msg_sec" translatable="false">秒前</string>
+    <string name="umeng_socialize_near_At" translatable="false">最近\@的好友</string>
+    <string name="umeng_socialize_network_break_alert" translatable="false">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send" translatable="false">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， 
+												（二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。
+												（三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_laiwang_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_socialize_text_laiwang_dynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_laiwang_key">来往</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_strings.xml -->
+    <eat-comment/>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_tip_blacklist" translatable="false">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed" translatable="false">登录失败…</string>
+    <string name="umeng_socialize_ucenter_login_title_guide" translatable="false">游客登录</string>
+    <string name="umeng_socialize_ucenter_login_title_platform" translatable="false">登录帐号</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="unknown">未知</string>
+    <string name="unknown_error_toast">未知错误</string>
+    <string name="unnamed">未命名</string>
+    <string name="updating_avatar_hint">正在上传头像</string>
+    <string name="upload_avatar_title">请选择上传头像方式</string>
+    <string name="user_add_self_toast">不能添加自己为好友</string>
+    <string name="user_already_exist_toast">该用户已存在</string>
+    <string name="user_delete_hint_message">您的账号已被删除，您被迫下线</string>
+    <string name="user_logout_dialog_message">您的账号已经在另一台设备上登录，您被迫下线</string>
+    <string name="user_logout_dialog_title">下线提示</string>
+    <string name="user_not_exist_toast">该用户不存在</string>
+    <string name="username_hit">用户名</string>
+    <string name="username_not_null_toast">用户名不能为空</string>
+    <string name="video">VideoActivity</string>
+    <string name="video_start_time">00:00</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="voice_fetch_failed_toast">获取语音失败，请重试</string>
+    <string name="voice_length">10"</string>
+    <string name="wednesday">周三</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_whatsapp_strings.xml -->
+    <eat-comment/>
+    <string name="whatsapp_content">有道云笔记只支持文本，图片</string>
+    <string name="whatsapp_no_client">未安装有WhatsApp客户端</string>
+    <string name="whatsapp_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="whatsapp_share">whatsapp分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_whatsapp_strings.xml -->
+    <eat-comment/>
+    <string name="whatsapp_showword">WhatsApp</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="woman">女</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="year">年</string>
+    <string name="yesterday">昨天</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_ynote_strings.xml -->
+    <eat-comment/>
+    <string name="ynote_content">有道云笔记只支持文本，图片，图文分享</string>
+    <string name="ynote_no_client">未安装有道云笔记客户端</string>
+    <string name="ynote_no_content">请设置分享内容</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="ynote_share">有道云笔记分享</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_ynote_strings.xml -->
+    <eat-comment/>
+    <string name="ynote_showword">有道云笔记</string>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBarItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/action_bar_txt_color</item>
+        <item name="android:background">#3C3C3C</item>
+        <item name="android:textSize">@dimen/text_minimum_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="BaseDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ChatDetailArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/arrow</item>
+    </style>
+    <style name="ChatDetailItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="ChatDetailItemContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">45dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="ChatDetailItemHit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/chat_detail_item_hit_color</item>
+    </style>
+    <style name="ChatItemOptionItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="CircularProgressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="stroke_width">1dp</item>
+        <item format="float" name="progress">0.1</item>
+        <item name="progress_color">#3F80DD</item>
+        <item name="progress_background_color">#D0D4D8</item>
+        <item name="marker_visible">true</item>
+        <item name="thumb_visible">false</item>
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:dividerPadding">8dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/shake_umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="Dialog_Fullscreen">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="HorizontalSlide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+    <style name="LoadingDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MeInfoItemContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#808080</item>
+    </style>
+    <style name="MeItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal </item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/messenger_button_styles.xml -->
+    <eat-comment/>
+    <style name="MessengerButton">
+    <item name="android:clickable">true</item>
+  </style>
+    <style name="MessengerButton.Blue">
+    <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
+  </style>
+    <style name="MessengerButton.Blue.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.Blue.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButton.White">
+    <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
+  </style>
+    <style name="MessengerButton.White.Large">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">44dp</item>
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+  </style>
+    <style name="MessengerButton.White.Small">
+    <item name="android:layout_width">158dp</item>
+    <item name="android:layout_height">36dp</item>
+  </style>
+    <style name="MessengerButtonText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:drawablePadding">4dp</item>
+    <item name="android:gravity">center</item>
+    <!--suppress NewApi -->
+    <!-- <item name="android:textAllCaps">true</item> -->
+    <item name="android:textSize">14sp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+    <style name="MessengerButtonText.Blue">
+    <item name="android:textColor">#ffffff</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
+  </style>
+    <style name="MessengerButtonText.Blue.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
+  </style>
+    <style name="MessengerButtonText.White">
+    <item name="android:textColor">#0084ff</item>
+  </style>
+    <style name="MessengerButtonText.White.Large">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
+  </style>
+    <style name="MessengerButtonText.White.Small">
+    <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
+  </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/jpush_style.xml -->
+    <eat-comment/>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/shake_umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="Notitle_Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="SettingItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+    </style>
+    <style name="SettingItemHit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SettingItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="SettingItemSubTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+    <style name="SettingItemSwitch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="SettingItemTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="SexSettingDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="Theme.UMDefault" parent="android:style/Theme.NoTitleBar"/>
+    <style name="Theme.UMDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="TimePicker">
+        <item name="android:editTextStyle">@style/Widget.EditText.White</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget">
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Widget.EditText.White" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#1a1a1a</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/build/intermediates/exploded-aar/waibaoworkpace.ViewPagerIndicator-master/library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_content_style">
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#373334</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_display_name_style">
+        <item name="android:ems">5</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#545454</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="chat_item_receive_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="chat_item_receiver_avatar_style">
+        <item name="android:layout_width">@dimen/item_head_icon_size</item>
+        <item name="android:layout_height">@dimen/item_head_icon_size</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:src">@drawable/head_icon</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="chat_item_send_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="chat_item_sender_avatar_style">
+        <item name="android:layout_width">@dimen/item_head_icon_size</item>
+        <item name="android:layout_height">@dimen/item_head_icon_size</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:src">@drawable/head_icon</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="chat_text_date_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">#555756</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_styles.xml -->
+    <eat-comment/>
+    <style name="com_facebook_button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/com_facebook_button_background</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14.0dp</item>
+    </style>
+    <style name="com_facebook_button_like" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_like_background</item>
+    </style>
+    <style name="com_facebook_button_send" parent="com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_send_background</item>
+        <item name="android:drawableLeft">@drawable/com_facebook_button_send_icon</item>
+        <item name="android:text">@string/com_facebook_send_button_text</item>
+    </style>
+    <style name="com_facebook_button_share" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="com_facebook_loginview_default_style">
+        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
+        <item name="android:drawableLeft">@null</item>
+        <item name="android:textColor">#4b5164</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="default_check_box_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/default_check_box_style</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="default_dialog_style">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:radius">5dp</item>
+    </style>
+    <style name="default_input_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/text_medium_size</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:background">@drawable/invisible_input_bg</item>
+    </style>
+    <style name="default_input_style_with_bg">
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/default_input_bg</item>
+    </style>
+    <style name="dialog_msg_alert_txt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textSize">@dimen/text_medium_size</item>
+        <item name="android:textColor">#4e4e4e</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="drop_down_list_header_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+    </style>
+    <style name="edit_note_name_txt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#d0cecf</item>
+    </style>
+    <style name="group_setting_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="header_belowtitle_schooladd_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:src">@drawable/address</item>
+    </style>
+    <style name="header_belowtitle_schoolname_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="header_left_close_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/close</item>
+    </style>
+    <style name="header_left_goback_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/go_left_w</item>
+    </style>
+    <style name="header_left_iv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/address</item>
+    </style>
+    <style name="header_left_tv_style">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">3dp</item>
+    </style>
+    <style name="header_right_context_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="header_right_msg_iv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/msg</item>
+    </style>
+    <style name="header_search_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/search</item>
+    </style>
+    <style name="header_search_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/shop_search_bg</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="header_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#1FADFF</item>
+    </style>
+    <style name="header_title_tv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="header_title_withshool_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="header_two_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#1FADFF</item>
+    </style>
+    <style name="home_content_ib_style">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="home_content_tvd_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:maxWidth">45dp</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">#88000000</item>
+    </style>
+    <style name="home_content_tvt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="info_left_txt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="info_right_txt_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/friend_content_text_color</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/shake_umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style mce_bogus="1" name="lan_DialogWindowAnim" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/shake_umeng_socialize_dlg_alpha</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="login_dialog_style">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="msg_text_style">
+        <item name="android:maxWidth">225dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/chat_text_color</item>
+    </style>
+    <style name="noTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/shake_umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="notitleDialog">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="process_bar_style">
+        <item name="android:minWidth">23dip</item>
+        <item name="android:maxWidth">23dip</item>
+        <item name="android:minHeight">23dip</item>
+        <item name="android:maxHeight">23dip</item>
+        <item name="android:indeterminateDrawable">@drawable/process</item>
+    </style>
+    <style name="radio_btn_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@drawable/selector_tab_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="record_voice_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@drawable/round_background</item>
+    </style>
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/room_rating_bar</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:maxHeight">35dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="round_check_box_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/round_check_box_bg</item>
+        <item name="android:button">@null</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/shake_umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="scrshot_dlg_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style mce_bogus="1" name="snapshotDialogWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/shake_umeng_socialize_scrshot_dlg</item>
+        <item name="android:windowExitAnimation">@anim/shake_umeng_socialize_dlg_alpha</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/facebook_styles.xml -->
+    <eat-comment/>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/umeng_socialize_style.xml -->
+    <eat-comment/>
+    <style name="umeng_socialize_action_bar_item_im">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="umeng_socialize_action_bar_item_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">999</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="umeng_socialize_action_bar_itemlayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="umeng_socialize_dialog_anim_fade">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_fade_out</item>
+    </style>
+    <style name="umeng_socialize_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_slide_out_from_bottom</item>
+    </style>
+    <style name="umeng_socialize_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/umeng_socialize_divider</item>
+    </style>
+    <style name="umeng_socialize_edit_padding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <style name="umeng_socialize_list_item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/umeng_socialize_list_item_bgcolor</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="umeng_socialize_popup_dialog_anim" parent="@style/umeng_socialize_popup_dialog">
+        <item name="android:windowAnimationStyle">@style/umeng_socialize_dialog_animations</item>
+    </style>
+    <style name="umeng_socialize_shareboard_animation">
+        <item name="android:windowEnterAnimation">@anim/umeng_socialize_shareboard_animation_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_socialize_shareboard_animation_out</item>
+    </style>
+</resources>

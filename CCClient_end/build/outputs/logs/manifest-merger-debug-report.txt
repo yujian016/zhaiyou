@@ -1,0 +1,908 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:2:1-593:12
+	xmlns:android
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:3:5-35
+	android:versionName
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:5:5-32
+	android:versionCode
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:4:5-29
+		INJECTED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml
+		INJECTED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml
+uses-sdk
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:7:5-9:41
+MERGED from [waibaoworkpace.ViewPagerIndicator-master:library:unspecified] D:\waibaoworkpace\CCClient_end\build\intermediates\exploded-aar\waibaoworkpace.ViewPagerIndicator-master\library\unspecified\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.VIBRATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:16:5-17:23
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.CAMERA
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:18:5-19:23
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:27:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:28:5-69
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:28:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:30:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:31:5-68
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:32:5-72
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:32:22-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:33:5-78
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:33:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:34:5-71
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:34:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:35:5-74
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:35:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:36:5-74
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:36:22-71
+permission#com.ccc.ccclient_end.permission.JPUSH_MESSAGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:40:5-42:47
+	android:protectionLevel
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:42:9-44
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:41:9-69
+uses-permission#com.ccc.ccclient_end.permission.JPUSH_MESSAGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:46:5-85
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:46:22-82
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:47:5-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:47:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:49:5-68
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:49:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:52:5-80
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:52:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:53:5-73
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:53:22-70
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:55:5-84
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:55:22-81
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:62:5-76
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:62:22-73
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:64:5-89
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:64:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:65:5-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:65:22-76
+application
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:67:5-591:19
+	android:label
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:71:9-41
+	android:allowBackup
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:69:9-35
+	android:icon
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:70:9-38
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:72:9-48
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:68:9-52
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:75:9-78:20
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:77:13-72
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:76:13-65
+meta-data#UMENG_APPKEY
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:80:9-82:56
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:81:13-40
+	android:value
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:82:13-53
+meta-data#UMENG_CHANNEL
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:87:9-89:42
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:88:13-41
+	android:value
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:89:13-39
+service#com.umeng.update.net.DownloadingService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:91:9-94:19
+	android:process
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:93:13-50
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:92:13-67
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:102:9-109:20
+	android:windowSoftInputMode
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:108:13-68
+	android:noHistory
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:106:13-37
+	android:configChanges
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:104:13-57
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:107:13-50
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:103:13-66
+	android:launchMode
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:105:13-44
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:112:9-124:20
+	android:noHistory
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:113:13-58
+	android:launchMode
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:114:13-44
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:116:13-123:29
+action#android.intent.action.VIEW
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:117:17-69
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:117:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:119:17-76
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:119:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:120:17-78
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:120:27-75
+data
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:122:17-59
+	android:scheme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:122:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:125:9-129:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:127:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:128:13-72
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:126:13-69
+activity#com.ccc.www.wxapi.WXEntryActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:132:9-137:75
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:136:13-49
+	android:configChanges
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:134:13-74
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:137:13-72
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:135:13-36
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:133:13-61
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:145:9-149:20
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:148:13-49
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:146:13-62
+activity#cn.jpush.android.ui.PushActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:152:9-163:20
+	android:configChanges
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:154:13-63
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:156:13-60
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:155:13-37
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:153:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.ccc.ccclient_end
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:157:13-162:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:158:17-75
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:158:25-72
+category#com.ccc.ccclient_end
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:161:17-65
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:161:27-62
+service#cn.jpush.android.service.DownloadService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:165:9-169:19
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:168:13-37
+	android:enabled
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:167:13-35
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:166:13-68
+service#cn.jpush.android.service.PushService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:173:9-183:19
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:176:13-37
+	android:enabled
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:175:13-35
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:174:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:177:13-182:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:178:17-75
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:178:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:179:17-73
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:179:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:180:17-78
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:180:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:181:17-76
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:181:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:187:9-196:19
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:190:13-36
+	android:enabled
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:189:13-35
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:188:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.ccc.ccclient_end
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:191:13-195:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:192:17-80
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:192:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:199:9-218:20
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:202:13-37
+	android:enabled
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:201:13-35
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:200:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.ccc.ccclient_end
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:203:13-206:29
+	android:priority
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:203:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:204:17-94
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:204:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:207:13-210:29
+action#android.intent.action.USER_PRESENT
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:208:17-77
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:208:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:209:17-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:209:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:212:13-217:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:213:17-78
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:213:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:214:17-80
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:214:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:221:9-223:40
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:223:13-37
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:222:13-66
+receiver#com.ccc.www.jpush.JpushReceiver
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:226:9-240:20
+	android:exported
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:229:13-37
+	android:enabled
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:228:13-35
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:227:13-59
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.ccc.ccclient_end
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:230:13-239:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:231:17-79
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:231:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:232:17-81
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:232:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:233:17-83
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:233:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:234:17-88
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:234:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:235:17-86
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:235:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:236:17-91
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:236:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:237:17-77
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:237:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:243:9-245:49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:244:13-41
+	android:value
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:245:13-46
+meta-data#JPUSH_APPKEY
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:246:9-248:56
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:247:13-40
+	android:value
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:248:13-53
+activity#com.ccc.www.activity.SplashActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:253:9-263:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:256:13-49
+	android:label
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:255:13-45
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:257:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:254:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:258:13-262:29
+action#android.intent.action.MAIN
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:259:17-69
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:259:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:261:17-77
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:261:27-74
+activity#com.ccc.www.navigation_activity.HomeActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:264:9-267:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:266:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:265:13-72
+activity#com.ccc.www.navigation_activity.ShopActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:268:9-271:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:270:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:269:13-72
+activity#com.ccc.www.navigation_activity.SockActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:272:9-275:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:274:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:273:13-72
+activity#com.ccc.www.navigation_activity.MyCenterActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:276:9-279:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:278:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:277:13-76
+activity#com.ccc.www.navigation_activity.NewMainActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:280:9-283:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:282:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:281:13-75
+activity#com.ccc.www.activity.GuideActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:284:9-287:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:286:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:285:13-62
+activity#com.ccc.www.activity.SchoolBuyGoodsActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:288:9-292:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:290:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:291:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:289:13-71
+activity#com.ccc.www.activity.DigitalActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:293:9-297:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:295:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:296:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:294:13-64
+activity#com.ccc.www.activity.DigitalActivity2
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:298:9-301:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:300:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:299:13-65
+activity#com.ccc.www.activity.DigitalRepairActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:302:9-305:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:304:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:303:13-70
+activity#com.ccc.www.activity.SecondaryTradeActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:306:9-309:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:308:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:307:13-71
+activity#com.ccc.www.activity.EducationTrainActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:310:9-313:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:312:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:311:13-71
+activity#com.ccc.www.activity.GamePlayActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:314:9-317:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:316:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:315:13-65
+activity#com.ccc.www.activity.ScoreShopActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:318:9-321:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:320:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:319:13-66
+activity#com.ccc.www.activity.CouponActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:322:9-325:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:324:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:323:13-63
+activity#com.ccc.www.activity.SelectSchoolActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:326:9-329:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:328:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:327:13-69
+activity#com.ccc.www.activity.MsgActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:330:9-334:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:332:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:333:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:331:13-60
+activity#com.ccc.www.activity.EntityStoreActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:335:9-339:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:337:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:338:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:336:13-68
+activity#com.ccc.www.activity.ShopGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:340:9-343:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:342:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:341:13-72
+activity#com.ccc.www.activity.MyShopGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:344:9-347:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:346:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:345:13-74
+activity#com.ccc.www.activity.FeedbackHelpActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:348:9-351:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:350:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:349:13-69
+activity#com.ccc.www.activity.SystemSettingActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:352:9-355:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:354:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:353:13-70
+activity#com.ccc.www.activity.OrderActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:356:9-359:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:358:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:357:13-62
+activity#com.ccc.www.activity.LoginActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:360:9-363:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:362:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:361:13-62
+activity#com.ccc.www.activity.DigitalRepairDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:364:9-367:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:366:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:365:13-76
+activity#com.ccc.www.activity.ApplyOpenShopActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:368:9-371:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:370:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:369:13-70
+activity#com.ccc.www.activity.ApplyOpenShopActivity2
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:372:9-375:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:374:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:373:13-71
+activity#com.ccc.www.activity.MyMoneyBagActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:376:9-379:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:378:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:377:13-67
+activity#com.ccc.www.activity.MyOpenShopActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:380:9-383:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:382:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:381:13-67
+activity#com.ccc.www.activity.MyStoreActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:384:9-387:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:386:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:385:13-64
+activity#com.ccc.www.activity.UploadGoodsActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:388:9-391:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:390:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:389:13-68
+activity#com.ccc.www.activity.SelectDormitoryActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:392:9-395:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:394:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:393:13-72
+activity#com.ccc.www.activity.PrivateSupermarketSelectSchoolActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:396:9-399:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:398:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:397:13-87
+activity#com.ccc.www.activity.MySuperMarketSettingActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:400:9-403:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:402:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:401:13-77
+activity#com.ccc.www.activity.PrivateSupermarketSelectDormitoryActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:404:9-407:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:406:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:405:13-90
+activity#com.ccc.www.activity.PrivateSupermarketDormitoryProxyActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:408:9-411:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:410:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:409:13-89
+activity#com.ccc.www.activity.ApplyProxyActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:412:9-415:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:414:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:413:13-67
+activity#com.ccc.www.activity.MyApplyProxyActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:416:9-419:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:418:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:417:13-69
+activity#com.ccc.www.activity.SuggestionFeedbackActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:420:9-423:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:422:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:421:13-75
+activity#com.ccc.www.activity.RegisterActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:424:9-427:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:426:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:425:13-65
+activity#com.ccc.www.activity.ForgetPwdActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:428:9-431:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:430:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:429:13-66
+activity#com.ccc.www.activity.ProxyStockActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:432:9-436:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:434:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:435:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:433:13-67
+activity#com.ccc.www.activity.ProxyStockCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:437:9-440:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:439:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:438:13-71
+activity#com.ccc.www.activity.PublishSecondaryInfoActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:441:9-444:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:443:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:442:13-77
+activity#com.ccc.www.activity.PublishGamePlayInfoActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:445:9-448:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:447:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:446:13-76
+activity#com.ccc.www.activity.EducationTrainDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:449:9-452:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:451:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:450:13-77
+activity#com.ccc.www.activity.GamePlayDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:453:9-456:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:455:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:454:13-71
+activity#com.ccc.www.activity.ImagePagerActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:457:9-460:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:459:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:458:13-67
+activity#com.ccc.www.activity.PrivateSupermarketActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:461:9-465:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:463:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:464:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:462:13-75
+activity#com.ccc.www.activity.MySuperMarketActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:466:9-470:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:468:13-49
+	android:theme
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:469:13-63
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:467:13-70
+activity#com.ccc.www.activity.DigitalCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:471:9-474:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:473:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:472:13-68
+activity#com.ccc.www.activity.DigitalCartSubmitOrderActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:475:9-478:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:477:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:476:13-79
+activity#com.ccc.www.activity.SchoolBuyCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:479:9-482:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:481:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:480:13-70
+activity#com.ccc.www.activity.PrivateSupermarketCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:483:9-486:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:485:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:484:13-79
+activity#com.ccc.www.activity.PrivateSupermarketCartSubmitOrderActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:487:9-490:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:489:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:488:13-90
+activity#com.ccc.www.activity.SchoolBuyGoodsActivity2
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:491:9-494:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:493:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:492:13-72
+activity#com.ccc.www.activity.RedEnvelopeActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:495:9-498:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:497:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:496:13-68
+activity#com.ccc.www.activity.RedEnvelope2Activity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:499:9-502:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:501:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:500:13-69
+activity#com.ccc.www.activity.SecondaryTradeCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:503:9-506:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:505:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:504:13-75
+activity#com.ccc.www.activity.SecondaryTradeDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:507:9-510:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:509:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:508:13-77
+activity#com.ccc.www.activity.ShopCartActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:511:9-514:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:513:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:512:13-65
+activity#com.ccc.www.activity.ShopCartSubmitOrderActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:515:9-518:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:517:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:516:13-76
+activity#com.ccc.www.activity.SendCouponActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:519:9-522:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:521:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:520:13-67
+activity#com.ccc.www.activity.AboutActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:523:9-526:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:525:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:524:13-62
+activity#com.ccc.www.activity.MyShopOrderDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:527:9-530:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:529:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:528:13-74
+activity#com.ccc.www.activity.SchoolBuyGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:531:9-534:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:533:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:532:13-77
+activity#com.ccc.www.activity.DigitalGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:535:9-538:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:537:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:536:13-75
+activity#com.ccc.www.activity.MySecondOrderDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:539:9-542:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:541:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:540:13-76
+activity#com.ccc.www.activity.MySchoolBuyOrderDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:543:9-546:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:545:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:544:13-79
+activity#com.ccc.www.activity.LimitTimeSaleGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:547:9-550:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:549:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:548:13-81
+activity#com.ccc.www.activity.EditGoodsDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:551:9-554:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:553:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:552:13-72
+activity#com.ccc.www.activity.MessageCenterActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:555:9-558:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:557:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:556:13-70
+activity#com.ccc.www.activity.MessageCenterDetailActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:559:9-562:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:561:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:560:13-76
+activity#com.ccc.www.activity.ExpressActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:563:9-566:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:565:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:564:13-64
+activity#com.ccc.www.activity.UserAgreementActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:567:9-570:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:569:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:568:13-70
+activity#com.ccc.www.activity.EditShopActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:571:9-574:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:573:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:572:13-65
+activity#com.ccc.www.activity.OpenRedBagActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:575:9-578:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:577:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:576:13-67
+activity#com.ccc.www.navigation_activity.SuperMarketActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:579:9-582:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:581:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:580:13-79
+activity#com.ccc.www.activity.GroupBuyActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:583:9-586:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:585:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:584:13-65
+activity#com.ccc.www.activity.SubmitGroupBuyOrderActivity
+ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:587:9-590:20
+	android:screenOrientation
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:589:13-49
+	android:name
+		ADDED from D:\waibaoworkpace\CCClient_end\AndroidManifest.xml:588:13-76

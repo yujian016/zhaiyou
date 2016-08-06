@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<item android:drawable="@drawable/btn_bg_w" android:state_pressed="true"></item>
+		<item android:drawable="@drawable/btn_bg_blue" />
+</selector>
+<!-- From: file:/D:/waibaoworkpace/CCClient_end/res/drawable/selector_guide_btn.xml -->

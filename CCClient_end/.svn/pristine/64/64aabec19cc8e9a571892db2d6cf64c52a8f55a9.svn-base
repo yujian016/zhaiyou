@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            style="@style/header_title_tv_style"
+            android:text="我的钱包" />
+
+        <ImageButton
+            android:id="@+id/ib_apply_shop_close"
+            style="@style/header_left_close_style" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@null"
+        android:src="@drawable/money_bag" />
+
+    <TextView
+        android:id="@+id/tv_my_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="我的余额" />
+
+    <TextView
+        android:id="@+id/tv_my_money_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:text="￥0.0元" />
+
+    <Button
+        android:id="@+id/btn_add_money"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_btn"
+        android:text="充值"
+        android:textColor="@drawable/selector_btntxt"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_get_my_money"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn"
+        android:text="提现"
+        android:textColor="@drawable/selector_btntxt"
+        android:textSize="13sp" />
+
+</LinearLayout>

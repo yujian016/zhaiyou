@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\httpclient-win-4.5.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="80635f3fdebcb3687ca3246214e597916504b996">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\httpclient-win-4.5.2-0c3f1fe2041e017895d0fe2a503dd89e9ec28340.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\eventbus.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9a179701fef5778920c0471563bc1642e5df8217">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\eventbus-a914f7c4197ac993cd36762e6d716a5f74cc3807.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\build\intermediates\exploded-aar\waibaoworkpace.ViewPagerIndicator-master\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8b0443c7de71737378c0f1177d1bc97273dad3e9">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\classes-d5f3bb132aec689d2c5667d4949edabac81ad396.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\build\intermediates\exploded-aar\waibaoworkpace.ViewPagerIndicator-master\library\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="53307dc2bd2b69fd5533458ee11885f55807de4b">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\android-support-v4-8c444791cceda42c97b89cf03eb86ec248298991.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\commons-logging-1.2-99858f3c5880df5fbf150773907eeb18596ffd2b.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\xUtils-2.6.14-6d7d2b06187f140287b66606c55ab88dc6acd6fa.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\commons-codec-1.9-82844e49bc37dfec574db388c3a88190fd108729.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7c8d33705d4e43b476dd2d2ec3b692f1894f33e7">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3-c60ec2534ee27119f20f5f157a7bf048045213bd.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1-a622ee3898aff25021de7b30a5ec11590e1f7f0c.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="52817908728a9be3fd40d9ee7f46009b1b4fba57">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-3cf7d379f95b04b68fd3f5303a7fbe2ed3be84c7.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\httpclient-cache-4.5.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bd50ea83908dbf2f387a333216e66d2f0c5079bd">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.2-0facfd39e70850986a5cc964339b9dcd332caf62.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\universal-image-loader-1.9.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9e025bc5b84968e7d6ac765e660a70b3e5a87432">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2-e5ba02446f509dccf61d53a4a69220696a9f0175.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\httpclient-4.5.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="733db77aa8d9b2d68015189df76ab06304406e50">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\httpclient-4.5.2-48475b307fa4682074add3196c94585b5a44c5d5.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\qiniu-android-sdk-7.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7111ff719c8a78a6783e67a68732ed40ea4e8423">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\qiniu-android-sdk-7.0.3-84db72a75909732f7fd9a3d685d828189e91b222.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\picasso-2.4.0-f69500e206e0dfe597d93a8c1fcbaf62153a7399.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-4786338e21de949db4d60422ee8c83b47455f0e2.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2-3615c24b69de3e8fb27db0047354b15ebdd305e3.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e76510af0986842b672c59d29502f3d29866320a">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1-d0949293595d2e27f4336120642d645053bab715.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\umeng-analytics-v5.6.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8a8255ad63bcf5d7609e26b24d6cc38a3d961d40">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.3-23c3603761237ec30530113dd48f1bec26754ca7.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\alipaySdk-20160120.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6ce6acc1864218d02d1abe3e07fc11f0104df141">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\alipaySdk-20160120-b3f6cd99701b6014ef93b2db6f59fb4b9b6e3386.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\gson-2.2.4-201d9408f38b8840206dad81868fb168c71123d7.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\httpcore-4.4.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\httpcore-4.4.4-b2e65cccbdab06e8c8e627ee9ba9e87c50745f05.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\httpmime-4.5.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="22b4c53dd9b6761024258de8f9240c3dce6ea368">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\httpmime-4.5.2-fb89b66409eb1a1f44d666992fcca6e401badcd0.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\gif-lib.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fb3e76038a5e4b6be51a2b58cb9e025bfb43006e">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\gif-lib-06c70ef05748115c4eba9e23cba7222e61636409.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\jmessage-android-1.2.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="910c1f669e93c2727c0133742c2b2c571359f7a9">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\jmessage-android-1.2.3-3f766c3468cfb4e431e8da220e12ed01853b5c21.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\android-viewbadger.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\android-viewbadger-c077628885e8d1c0694f50943547149651824809.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\fluent-hc-4.5.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7bfdfa49de6d720ad3c8cedb6a5238eec564dfed">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\fluent-hc-4.5.2-e3cd200490d4c36493e38c3ac2821a0ad0e1177c.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="38c1f37e256f912f926a587ef006ffb44b584437">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\umeng_social_sdk-93c091bc35760ea39ef70d84a54199364882921d.jar" />
+    </item>
+    <item
+        jar="D:\waibaoworkpace\CCClient_end\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\waibaoworkpace\CCClient_end\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-e25ec3c23f344f7d131c48a510d6ed45e8bba6ac.jar" />
+    </item>
+
+</items>

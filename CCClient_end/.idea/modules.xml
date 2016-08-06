@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CCClient_end.iml" filepath="$PROJECT_DIR$/CCClient_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ViewPagerIndicator-master/ViewPagerIndicator-master.iml" filepath="$PROJECT_DIR$/../ViewPagerIndicator-master/ViewPagerIndicator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ViewPagerIndicator-master/library/library.iml" filepath="$PROJECT_DIR$/../ViewPagerIndicator-master/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../waibaoworkpace.iml" filepath="$PROJECT_DIR$/../waibaoworkpace.iml" />
+    </modules>
+  </component>
+</project>

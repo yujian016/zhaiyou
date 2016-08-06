@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- home_header -->
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                style="@style/header_style" >
+
+                <TextView
+                    android:id="@+id/tv_header_title"
+                    style="@style/header_title_tv_style"
+                    android:text="首页" />
+
+                <ImageButton
+                    android:id="@+id/ib_header_city"
+                    style="@style/header_left_iv_style" />
+
+                <TextView
+                    android:id="@+id/tv_header_city"
+                    style="@style/header_left_tv_style"
+                    android:layout_toRightOf="@+id/ib_header_city"
+                    android:text="请选择学校" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <!-- home_ad -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/vp_home_ad"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp" >
+                        </android.support.v4.view.ViewPager>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="20dp"
+                            android:layout_alignBottom="@+id/vp_home_ad"
+                            android:orientation="vertical"
+                            android:padding="6dp" >
+
+                            <LinearLayout
+                                android:id="@+id/ad_home_dot_layout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <!-- home_9宫格 -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_parent_one"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_son_one_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_one"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_one" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="私人超市" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_son_one_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_two"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_two" />
+
+                             <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="潮流数码" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_son_one_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_three"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_three" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="校园购物" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:id="@+id/ll_son_two_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_four"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_four" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="数码快修" />
+                            
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    
+
+                    <!-- two -->
+
+                    <LinearLayout
+                        android:id="@+id/ll_parent_two"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                       <LinearLayout
+                            android:id="@+id/ll_son_two_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_six"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_six" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="培训教育" />
+                        </LinearLayout>
+
+                       
+                        <LinearLayout
+                            android:id="@+id/ll_son_three_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_seven"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_seven" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="游戏代练" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_son_two_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_five"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_five" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="二手交易" />
+                        </LinearLayout>
+
+						<LinearLayout
+                            android:id="@+id/ll_son_three_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <ImageButton
+                                android:id="@+id/ib_eight"
+                                style="@style/home_content_ib_style"
+                                android:src="@drawable/n_eight" />
+
+                            <TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:text="领取优惠" />
+                        </LinearLayout>
+                        
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#ccc" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/col_244"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/corners_white_bg"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:src="@drawable/zhaiyougonggao" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@color/red" />
+
+                            <LinearLayout
+                                android:id="@+id/home_notice_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/homenotice_textview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:ellipsize="end"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="2"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:textColor="@color/col_72"
+                                    android:textSize="13sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#ccc" />
+
+                    
+                    <!-- 瀑布流布局 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+						
+                        <!-- 限时抢购 -->
+                         <LinearLayout
+                             android:layout_width="300dp"
+                             android:layout_height="match_parent"
+                             android:background="@color/white"
+                             android:layout_weight="1"
+                             android:orientation="vertical" >
+                         	   <TextView
+	                            android:id="@+id/limittime_titme"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="8dp"
+	                            android:layout_marginTop="8dp"
+	                            android:gravity="center"
+	                            android:textColor="#000000"
+	                            android:text="限时抢购"/>
+                         	   <TextView
+                                android:id="@+id/home_flash_sale_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="5dp"
+                                android:text="10:32:59"
+                                android:textColor="#77000000"
+                                android:textSize="13sp" />
+                         	   <ImageView
+			                    android:id="@+id/home_xs_img"
+			                    android:layout_width="match_parent"
+			                    android:layout_height="90dp"
+			                    android:layout_marginLeft="8dp"
+			                    android:src="@drawable/xy_img" />
+                         	   <TextView
+                                android:id="@+id/home_xs_goods_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="5dp"
+                                android:text="正品耐克 5463738红色全掌起点运动鞋 减震"
+                                android:textColor="#77000000"
+                                android:textSize="12sp" />
+                         	   <TextView
+                                android:id="@+id/home_xs_goods_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:text="￥599"
+                                android:textColor="#1FADFF"
+                                android:textSize="13sp" />
+                         	   <TextView
+                                android:id="@+id/home_xs_goods_more"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                 android:layout_gravity="right"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:text="查看更多"
+                                android:textColor="#1FADFF"
+                                android:textSize="13sp" />
+                         </LinearLayout>
+						<View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+                         <!-- 校园团购区域 -->
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:background="@color/white"
+                             android:layout_weight="1"
+                             android:orientation="vertical" >
+                         	   
+                        	 <ImageView
+			                    android:id="@+id/home_tg_img"
+			                    android:layout_width="match_parent"
+			                    android:layout_height="99dp"
+			                    android:src="@drawable/tuangou_img" />
+                        	 <View
+		                        android:layout_width="match_parent"
+		                        android:layout_height="0.5dp"
+		                        android:background="#ccc" />
+                        	 <!-- 幸运购，积分商城 -->
+                        	 <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:background="@color/white"
+                             android:orientation="horizontal" >
+                                <!-- 幸运购 -->
+                                <LinearLayout
+	                             android:layout_width="match_parent"
+	                             android:layout_height="match_parent"
+	                             android:layout_weight="1"
+	                             android:background="@color/white"
+	                             android:orientation="vertical" >
+	                             	<TextView
+	                                android:id="@+id/home_xy_title"
+	                                android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:layout_marginLeft="8dp"
+	                                android:layout_marginTop="2dp"
+	                                android:text="幸运购"
+	                                android:textColor="#000000"
+	                                android:textSize="13sp" />
+	                             	<TextView
+	                                android:id="@+id/home_xy_number"
+	                                android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:layout_marginLeft="8dp"
+	                                android:layout_marginTop="2dp"
+	                                android:text="第20160616期"
+	                                android:textColor="#1FADFF"
+	                                android:textSize="10sp" />
+	                             	<ImageView
+				                    android:id="@+id/home_xy_img"
+				                    android:layout_width="match_parent"
+				                    android:layout_height="90dp"
+				                    android:src="@drawable/xy_img" />
+                             	</LinearLayout>
+                             	
+                                <View
+		                        android:layout_width="0.5dp"
+		                        android:layout_height="match_parent"
+		                        android:background="#ccc" />
+                                
+                                <!-- 积分商城 -->
+                                <LinearLayout
+                                 android:id="@+id/ll_son_three_three"
+	                             android:layout_width="match_parent"
+	                             android:layout_height="match_parent"
+	                             android:background="@color/white"
+	                             android:layout_weight="1"
+	                             android:orientation="vertical" >
+	                             	<TextView
+                                    style="@style/home_content_tvt_style"
+                                    android:layout_marginLeft="8dp"
+	                                android:layout_marginTop="2dp"
+                                    android:text="积分商城" />
+	                             	<TextView
+                                    android:layout_width="wrap_content"
+	                                android:layout_height="wrap_content"
+	                                android:layout_marginLeft="8dp"
+	                                android:layout_marginTop="2dp"
+	                                android:textColor="#1FADFF"
+	                                android:textSize="10sp" 
+                                    android:text="宅友积分换购" />
+	                             	<ImageView
+				                    android:id="@+id/home_jf_img"
+				                    android:layout_width="match_parent"
+				                    android:layout_height="90dp"
+				                    android:src="@drawable/jf_img" />
+                             	</LinearLayout>
+                             </LinearLayout>
+                         </LinearLayout>
+                    </LinearLayout>
+
+                    
+                    
+                    <!-- 水平滑动
+                     <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#ccc" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/home_flash_sale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:scrollbars="none" >
+
+                        <LinearLayout
+                            android:id="@+id/home_flash_sale_linearlayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" />
+                    </HorizontalScrollView>  -->
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/home_redbag"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="122dp"
+                    android:src="@drawable/home_regbag"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/home_fragment.xml -->

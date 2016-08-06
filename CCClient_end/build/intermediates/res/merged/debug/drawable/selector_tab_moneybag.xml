@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_checked="true" android:drawable="@drawable/leg_r"></item>
+	<item android:drawable="@drawable/leg"></item>
+</selector>
+<!-- From: file:/D:/waibaoworkpace/CCClient_end/res/drawable/selector_tab_moneybag.xml -->

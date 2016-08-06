@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ececec"
+        android:id="@+id/rg_home"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/radio_btn_style"
+            android:drawableTop="@drawable/selector_tab_home"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_shop"
+            style="@style/radio_btn_style"
+            android:drawableTop="@drawable/selector_tab_shop"
+            android:text="店铺" />
+
+        <RadioButton
+            android:id="@+id/rb_moneybag"
+            style="@style/radio_btn_style"
+            android:drawableTop="@drawable/selector_tab_foot"
+            android:text="零食" />
+
+        <RadioButton
+            android:id="@+id/rb_mycenter"
+            style="@style/radio_btn_style"
+            android:drawableTop="@drawable/selector_tab_mycenter"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/activity_main.xml -->

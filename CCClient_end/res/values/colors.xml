@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme">#339a89</color>
+    <color name="title_text">#333</color>
+    <color name="title_bg">#f2f2f2</color>
+    <color name="c_bg">#f2f2f2</color>
+    <color name="c_line">#ccc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="height_green">#2db871</color>
+    <color name="soft_green">#65d184</color>
+    <color name="sec_text">#666</color>
+    <color name="thrid_text">#999</color>
+    <color name="msg_text">#ccc</color>
+    <color name="origion">#f09f47</color>
+    <color name="red">#e1320e</color>
+    <color name="home_search_bg">#93D3B3</color>
+    <color name="black">#000000</color>
+    <color name="home_buttom_check">#F48438</color>
+    <color name="home_buttom_nocheck">#999999</color>
+    <color name="home_mime_division">#DDDDDD</color>
+    <color name="home_take_unselectcolor">#666666</color>
+    <color name="home_take_selectcolor">#2BB871</color>
+
+    <!-- 验证审核 -->
+    <color name="tv_com_verify_state_doing">#f19250</color>
+    <color name="tv_com_verify_state_udoing">#666666</color>
+    <color name="tv_com_verify_key">#333333</color>
+    <color name="etv_com_verify_value">#cccccc</color>
+
+    <!-- 发布兼职 -->
+    <color name="issue_job_main_text">#666666</color>
+    <color name="issue_job_seperate">#cccccc</color>
+    <color name="tab_selected_text_color">#339988</color>
+    <color name="tab_unselected_text_color">#666666</color>
+
+    <!-- 兼职管理 -->
+    <color name="job_manage_press_text">#f29251</color>
+    <color name="job_manage_unpress_text">#333333</color>
+
+    <!-- 日历控件 -->
+    <!-- General -->
+    <color name="green">#669900</color>
+    <color name="blue">#33b5e5</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="text_press">#333</color>
+    <!-- 省市区 -->
+    <color name="province_line_border">#C7C7C7</color>
+
+    <!-- 点点精益 -->
+    <color name="loginbtn">#FFBB2A</color>
+    <color name="topbar_bg">#1FADFF</color>
+    <color name="divider_line">#CCCCCC</color>
+    <color name="text_color">#999999</color>
+    <color name="content_color">#333333</color>
+    <color name="fildpwd_textbg_color">#EFEFEF</color>
+    <color name="buttom_noselect_col">#909090</color>
+    <color name="yellow_page_search_bg">#fffffbfa</color>
+    <color name="login_form_hint">#ffb5b5b5</color>
+    <color name="yellow_light">#ffefa717</color>
+    <color name="assgintext">#3E3E3E</color>
+    <color name="col_200">#C8C8C8</color>
+    <color name="col_218_218_221">#DADADD</color>
+    <color name="col_51">#333333</color>
+    <color name="contentbg">#EFEFEF</color>
+    <color name="col_228">#E4E4E4</color>
+    <color name="col_187">#BBBBBB</color>
+    <color name="col_30_189_169">#1EBDA9</color>
+    <color name="col_102">#666666</color>
+    <color name="col_153">#999999</color>
+    <color name="col_227_3_4">#E30304</color>
+    <color name="col_51_153_254">#3399FE</color>
+    <color name="col_59_200_121">#3BC879</color>
+    <color name="col_255_103_154">#FF679A</color>
+    <color name="col_102_203_255">#66CBFF</color>
+    <color name="col_255_154_102">#FF9A66</color>
+    <color name="col_89_89_127">#59537F</color>
+    <color name="col_52">#343434</color>
+    <color name="col_235">#EBEBEB</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#cb000000</color>
+    <color name="viewfinder_frame">#ff0000ff</color>
+    <color name="backgroud">#ffffffff</color>
+    <color name="title_tv_color">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="col_230">#E6E6E6</color>
+    <color name="basicinfo_bg">#F6F2C3</color>
+    <color name="col_244_132_56">#F48438</color>
+    <color name="col_255_134_51">#FF8633</color>
+    <color name="col_254_155_88">#FE9B58</color>
+    <color name="col_72">#484848</color>
+    <color name="col_244">#F4F4F4</color>
+    <color name="col_250">#FAFAFA</color>
+    <color name="col_238">#EEEEEE</color>
+    <color name="col_250_44_98">#FA2C62</color>
+    
+    <color name="col_166">#A6A6A6</color>
+    
+    <color name="col_255_182_90">#FFB65A</color>
+    
+    
+    <!-- 全局使用的颜色 -->
+    <color name="titlebar_bg_color">#3C3C3C</color>
+    <!-- 这是Login相关界面中的颜色 -->
+    <color name="login_txt_hint_color">#555555</color>
+    <color name="register_split_line_color">#c2d4ec</color>
+    <color name="login_split_line_color">#c1d3cc</color>
+    <color name="login_btn_def_color">#98FB98</color>
+    <color name="re_login_btn_def_color">#6fd66b</color>
+    <color name="login_btn_sel_color">#006400</color>
+    <color name="relogin_txt_color">#555555</color>
+    <color name="swich_user_sel_color">#3F80DC</color>
+    <color name="circular_progressbar_color">#3F80DD</color>
+    <color name="circular_progressbar_bg_color">#D0D4D8</color>
+    <!-- 注册头像设置页面 -->
+    <color name="regist_photo_focus_color">#3F80DD</color>
+    <!-- 主页面 -->
+    <color name="action_bar_txt_color">#969696</color>
+    <color name="actionbar_sel_color">#1c1c1c</color>
+    <color name="me_info_edit_color">#2d2d2d</color>
+    <color name="me_info_hint_color">#cfcdce</color>
+    <color name="actionbar_pres_color">#3f80dc</color>
+    <color name="menu_item_back_pres_color">#3773cb</color>
+    <color name="actionbar_def_color">#3C3C3C</color>
+    <color name="jpush_blue">#3f80dc</color>
+    <color name="main_view_split_line_color">#C8C8C8</color>
+    <color name="conv_list_split_line_color">#d6d6d6</color>
+    <color name="contacts_pinner_bg">#F2F8F8F8</color>
+    <color name="contacts_pinner_txt">#858585</color>
+    <color name="contacts_txt_color">#0479FB</color>
+    <color name="me_split_line_color">#d0d0d0</color>
+    <color name="msg_list_item_sel_color">#A3C2EF</color>
+    <color name="item_click_bg_color">#dddddd</color>
+    <color name="friend_content_text_color">#7f7f7f</color>
+    <color name="chat_text_color">#373334</color>
+    <color name="chat_detail_hit_color">#3C3C3C</color>
+    <color name="chat_detail_item_hit_color">#555555</color>
+    <color name="chat_detail_split_line_color">#d3d3d3</color>
+    <color name="dialog_select_color">#d4d4d4</color>
+    <color name="finish_btn_unclickable_color">#b9ebb8</color>
+    <color name="finish_btn_clickable_color">#6fd66b</color>
+    <color name="default_cursor_color">#8db4eb</color>
+    <color name="menu_item_click_color">#346fc3</color>
+    <color name="me_no_picture_color">#e1e1e1</color>
+    <color name="reset_password_title_color">#4e4e4e</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="header_normal">#ffe74c3c</color>
+    <color name="header_pressed">#ffc0392b</color>
+    <color name="menu_section_header">#FFDDDDDD</color>
+    <color name="letter_hint_start_color">#19892f</color>
+    <color name="leter_hint_end_color">#0ae936</color>
+    <color name="section_color">#f8f8f8</color>
+    <color name="section_text_color">#858585</color>
+    <color name="sidebar_text_color">#0a6afd</color>
+    <color name="select_friend_item_split_color">#dddddd</color>
+    <color name="network_disconnected_bg_color">#ffdfe0</color>
+    <color name="all_members_bg_color">#f0f1f3</color>
+    <!-- 黑色 -->
+    <color name="gray">#808080</color>
+
+    <!-- 灰色 -->
+
+    <color name="grey">#808080</color>
+
+    <!-- 灰色 -->
+
+
+
+    <!-- 绿色 -->
+
+    <color name="darkgreen">#006400</color>
+
+    <!-- 暗绿色 -->
+
+
+    <!-- 蓝色 -->
+
+    
+    <color name="light_blue">#8CA4FF</color>
+
+</resources>

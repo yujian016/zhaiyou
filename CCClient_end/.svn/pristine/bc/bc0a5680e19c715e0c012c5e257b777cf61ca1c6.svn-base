@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_apply"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        style="@style/header_style" >
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            style="@style/header_title_tv_style"
+            android:text="优惠券" />
+
+        <ImageButton
+            android:id="@+id/ib_coupon_close"
+            style="@style/header_left_close_style" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/apply_open_shop_bg"
+                android:paddingBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_coupon_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="35dp"
+                    android:text="金\t额" />
+
+                <EditText
+                    android:id="@+id/et_coupon_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@+id/tv_coupon_price"
+                    android:background="@drawable/apply_open_shop_edit_bg"
+                    android:hint="每张优惠券的金额"
+                    android:paddingLeft="5dp"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_coupon_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_coupon_price"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="28dp"
+                    android:text="张\t数" />
+
+                <EditText
+                    android:id="@+id/et_coupon_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/et_coupon_price"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/tv_coupon_num"
+                    android:background="@drawable/apply_open_shop_edit_bg"
+                    android:hint="输入优惠券的张数"
+                    android:paddingLeft="5dp"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_coupon_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_coupon_num"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="说\t明" />
+
+                <EditText
+                    android:id="@+id/et_coupon_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_coupon_num"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/tv_coupon_detail"
+                    android:background="@drawable/apply_open_shop_edit_bg"
+                    android:gravity="start"
+                    android:hint="输入优惠券说明信息"
+                    android:inputType="textMultiLine"
+                    android:minLines="6"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="2dp"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_coupon_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_coupon_info"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="封\t面" />
+
+                <ImageView
+                    android:id="@+id/iv_coupon_upload_log"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/et_coupon_info"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/tv_coupon_log"
+                    android:background="@drawable/apply_open_shop_edit_bg"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/addpic" />
+
+                <TextView
+                    android:id="@+id/tv_input_empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/iv_coupon_upload_log"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_input_empty"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="消费满" />
+
+                    <EditText
+                        android:id="@+id/et_use_coupon_money"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/apply_open_shop_edit_bg"
+                        android:gravity="center_vertical|left"
+                        android:hint="输入使用条件"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="2dp"
+                        android:text="0"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="元可使用" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_publish_second_info"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selector_btn"
+                android:text="确定发布"
+                android:textColor="@drawable/selector_btntxt"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
