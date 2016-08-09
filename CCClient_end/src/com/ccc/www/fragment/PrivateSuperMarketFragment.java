@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,6 +24,7 @@ import com.ccc.www.bean.SupMarketCategoryBean;
 import com.ccc.www.util.BaseUtils;
 import com.ccc.www.util.GlobalConstant;
 import com.ccc.www.util.Xutils;
+import com.ccc.www.view.MyGridView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.lidroid.xutils.exception.HttpException;
@@ -38,7 +40,7 @@ public class PrivateSuperMarketFragment extends BaseFragment {
 
 	private Activity activity;
 	public View rootView;
-	private ListView lv_private_supmarket_goods;
+	private GridView lv_private_supmarket_goods;
 
 	private int index = 0;
 	private int proxyshopid = 0;
@@ -75,7 +77,7 @@ public class PrivateSuperMarketFragment extends BaseFragment {
 	}
 
 	private void initView() {
-		lv_private_supmarket_goods = (ListView) rootView
+		lv_private_supmarket_goods = (GridView) rootView
 				.findViewById(R.id.lv_private_supmarket_goods);
 		tv_no_goods = (TextView) rootView.findViewById(R.id.tv_no_goods);
 	}

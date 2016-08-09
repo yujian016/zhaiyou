@@ -153,19 +153,19 @@ public class HomeActivity extends BaseActivity {
 			// Intent sockIntent = new Intent("SockReceiver");
 			// activity.sendBroadcast(sockIntent);
 
-			int hotelid = UserUtil.getprivatesmhotelid(HomeActivity.this);
-			if (hotelid == 0) {
+//			int hotelid = UserUtil.getprivatesmhotelid(HomeActivity.this);
+//			if (hotelid == 0) {
 				Intent intent = new Intent();
 				intent.setClass(HomeActivity.this,
 						PrivateSupermarketSelectSchoolActivity.class);
 				startActivity(intent);
-			} else {
-				Intent intent = new Intent();
-				intent.setClass(HomeActivity.this,
-						PrivateSupermarketDormitoryProxyActivity.class);
-				intent.putExtra("hostel_id", hotelid);
-				startActivity(intent);
-			}
+//			} else {
+//				Intent intent = new Intent();
+//				intent.setClass(HomeActivity.this,
+//						PrivateSupermarketDormitoryProxyActivity.class);
+//				intent.putExtra("hostel_id", hotelid);
+//				startActivity(intent);
+//			}
 
 			break;
 		case R.id.ib_one:
@@ -173,19 +173,19 @@ public class HomeActivity extends BaseActivity {
 			// Intent sockIntent = new Intent("SockReceiver");
 			// activity.sendBroadcast(sockIntent);
 
-			int hotelid2 = UserUtil.getprivatesmhotelid(HomeActivity.this);
-			if (hotelid2 == 0) {
-				Intent intent = new Intent();
-				intent.setClass(HomeActivity.this,
+//			int hotelid2 = UserUtil.getprivatesmhotelid(HomeActivity.this);
+//			if (hotelid2 == 0) {
+				Intent intent1 = new Intent();
+				intent1.setClass(HomeActivity.this,
 						PrivateSupermarketSelectSchoolActivity.class);
-				startActivity(intent);
-			} else {
-				Intent intent = new Intent();
-				intent.setClass(HomeActivity.this,
-						PrivateSupermarketDormitoryProxyActivity.class);
-				intent.putExtra("hostel_id", hotelid2);
-				startActivity(intent);
-			}
+				startActivity(intent1);
+//			} else {
+//				Intent intent = new Intent();
+//				intent.setClass(HomeActivity.this,
+//						PrivateSupermarketDormitoryProxyActivity.class);
+//				intent.putExtra("hostel_id", hotelid2);
+//				startActivity(intent);
+//			}
 
 			break;
 		case R.id.ll_son_one_two:

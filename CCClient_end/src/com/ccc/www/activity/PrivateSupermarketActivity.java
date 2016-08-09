@@ -24,6 +24,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.ccc.ccclient_end.R;
 import com.ccc.www.adapter.AdImagePagerAdapter;
@@ -63,6 +65,11 @@ public class PrivateSupermarketActivity extends BaseActivity {
 	private ViewPager activity_supmarket_viewpager;
 	private LinearLayout ad_supmarket_dot_layout;
 	private ImageButton ib_supmarket_goback;
+
+	private RelativeLayout bottonLayout;
+	private TextView goodsCount;
+	private TextView totalPrice;
+	private TextView submit;
 
 	int proxyshopid = 0;
 
@@ -135,19 +142,34 @@ public class PrivateSupermarketActivity extends BaseActivity {
 						userid);
 
 		int allcount = 0;
+		double allmoney = 0.0f;
+		int psm_startmoney = UserUtil.getpsm_startmoney(this);
 		for (int i = 0; i < allSockBean.size(); i++) {
 			int count = allSockBean.get(i).getCount();
 			allcount = allcount + count;
+			double money = allSockBean.get(i).getCount()
+					* allSockBean.get(i).getGoods_price();
+			allmoney = allmoney + money;
 		}
 
 		badge.setText("" + allcount);
 		badge.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
 		badge.setTextSize(10);
 		if (allcount > 0) {
+			goodsCount.setText(allcount+"件商品");
+			bottonLayout.setVisibility(View.VISIBLE);
 			badge.show();
 		} else {
+			bottonLayout.setVisibility(View.GONE);
 			badge.hide();
 		}
+		totalPrice.setText("共计：￥"+allmoney);
+		if (allmoney < psm_startmoney) {
+			submit.setText("差"+(psm_startmoney-allmoney)+"元满起送价");
+		}else{
+			submit.setText("提交");
+		}
+
 	}
 
 	@Override
@@ -215,6 +237,10 @@ public class PrivateSupermarketActivity extends BaseActivity {
 		ad_supmarket_dot_layout = (LinearLayout) findViewById(R.id.ad_supmarket_dot_layout);
 		ib_supmarket_goback = (ImageButton) findViewById(R.id.ib_supmarket_goback);
 		iv_privatesupermarketcartcount = (ImageView) findViewById(R.id.iv_privatesupermarketcartcount);
+		bottonLayout = (RelativeLayout) findViewById(R.id.bottonLayout);
+		goodsCount = (TextView) findViewById(R.id.goodsCount);
+		totalPrice = (TextView) findViewById(R.id.totalPrice);
+		submit = (TextView) findViewById(R.id.submit);
 	}
 
 	@Override

@@ -101,6 +101,19 @@ public class PrivateSuperMarketAdapter extends BaseAdapter {
 		holder.item_privatesupermarket_price.setText("￥"
 				+ sock.getGoods_price() + "元");
 
+		if(sock.getCount()==0){
+			holder.iv_privatesupermarket_minus.setImageResource(R.drawable.btn_minus_gray);
+
+		}else{
+			holder.iv_privatesupermarket_minus.setImageResource(R.drawable.btn_minus_blue);
+		}
+
+		if(sock.getCount()==sock.getHave_num()){
+			holder.iv_privatesupermarket_plus.setImageResource(R.drawable.btn_plus_gray);
+		}else{
+			holder.iv_privatesupermarket_plus.setImageResource(R.drawable.btn_plus_blue);
+		}
+
 		holder.tv_privatesupermarket_count.setText(sock.getCount() + "");
 
 		holder.iv_privatesupermarket_minus

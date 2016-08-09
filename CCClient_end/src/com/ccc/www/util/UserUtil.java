@@ -353,7 +353,33 @@ public class UserUtil {
 		int enterpsmid = sp.getInt("enterpsmid", 0);
 		return enterpsmid;
 	}
-	
+	/**
+	 * 保存market_name
+	 *
+	 * @param context
+	 * @param market_name
+	 */
+	public static void setMarketName(Context context, String market_name) {
+		SharedPreferences sp = context.getSharedPreferences("app",
+				Context.MODE_PRIVATE);
+		Editor edit = sp.edit();
+		edit.putString("market_name", market_name);
+		edit.commit();
+	}
+
+	/**
+	 * 取出market_name
+	 *
+	 * @param context
+	 * @return
+	 */
+	public static String getMarketName(Context context) {
+		SharedPreferences sp = context.getSharedPreferences("app",
+				Context.MODE_PRIVATE);
+		String market_name = sp.getString("market_name", "");
+		return market_name;
+	}
+
 	
 	
 	

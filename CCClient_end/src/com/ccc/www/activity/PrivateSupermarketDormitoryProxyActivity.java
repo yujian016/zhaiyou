@@ -79,11 +79,6 @@ public class PrivateSupermarketDormitoryProxyActivity extends BaseActivity {
 		case R.id.ib_select_dormitory_goback:
 			PrivateSupermarketDormitoryProxyActivity.this.finish();
 			break;
-		case R.id.clear_choose:
-			UserUtil.setprivatesmhotelid(
-					PrivateSupermarketDormitoryProxyActivity.this, 0);
-			showToast("清除成功");
-			break;
 		case R.id.apply_proxy:
 			getproxyshopcount();
 			break;
@@ -112,11 +107,18 @@ public class PrivateSupermarketDormitoryProxyActivity extends BaseActivity {
 	public void initListener() {
 		ib_select_dormitory_goback.setOnClickListener(this);
 		apply_proxy.setOnClickListener(this);
-		clear_choose.setOnClickListener(this);
 	}
 
 	@Override
 	public void initdata() {
+		String schoolname = UserUtil
+				.getschoolname(PrivateSupermarketDormitoryProxyActivity.this);
+		String hostelname = UserUtil
+				.gethostelname(PrivateSupermarketDormitoryProxyActivity.this);
+		String floorname = UserUtil
+				.getfloorname(PrivateSupermarketDormitoryProxyActivity.this);
+		String useraddr = schoolname + hostelname + floorname;
+		clear_choose.setText(useraddr);
 
 		getallproxyshop();
 
@@ -324,6 +326,9 @@ public class PrivateSupermarketDormitoryProxyActivity extends BaseActivity {
 										UserUtil.setenterpsm_startmoney(
 												PrivateSupermarketDormitoryProxyActivity.this,
 												bean.getStart_send_money());
+
+										UserUtil.setMarketName(PrivateSupermarketDormitoryProxyActivity.this,
+												bean.getSup_market_name());
 
 										Intent intent = new Intent();
 										intent.putExtra("proxyshopid",

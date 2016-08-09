@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <ListView
+
+    <GridView
         android:id="@+id/lv_private_supmarket_goods"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:divider="#ccc"
-        android:dividerHeight="1dp" >
-    </ListView>
+        android:layout_width="match_parent"
+        android:numColumns="2"
+        android:listSelector="@null"
+        android:stretchMode="columnWidth"
+        android:layout_height="wrap_content"></GridView>
+
+    <!--<ListView-->
+        <!--android:id="@+id/lv_private_supmarket_goods"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="#ccc"-->
+        <!--android:dividerHeight="1dp" >-->
+    <!--</ListView>-->
 
     <TextView
         android:id="@+id/tv_no_goods"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:layout_centerInParent="true"
         android:text="暂无商品"
         android:textSize="20dp"
         android:visibility="gone" />
 
-</LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/private_supmarket_fragment.xml -->
+</RelativeLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/private_supmarket_fragment.xml -->

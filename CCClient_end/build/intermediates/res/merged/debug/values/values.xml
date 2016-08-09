@@ -1271,6 +1271,11 @@
     <style name="MessengerButtonText.White.Small">
     <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
   </style>
+    <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+    </style>
     <!-- From: file:/D:/waibaoworkpace/CCClient_end/res/values/jpush_style.xml -->
     <eat-comment/>
     <style name="MyDialogStyle">

@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/tv_school_name"
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/school_logo"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_school_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/expandIv"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/expand_down"
+                    android:layout_margin="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/divider_line"
+                android:layout_marginRight="15dp"
+                android:layout_height="0.5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.ccc.www.view.MyGridView
+        android:id="@+id/gridView"
+        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/black" />
+        android:numColumns="5"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"></com.ccc.www.view.MyGridView>
 
 </LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/school_lv_item.xml -->

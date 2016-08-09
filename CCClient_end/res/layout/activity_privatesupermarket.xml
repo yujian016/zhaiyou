@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/rl_title"
-        style="@style/header_style" >
+        style="@style/header_style">
 
         <TextView
             android:id="@+id/tv_select_school_title"
@@ -20,7 +20,7 @@
 
         <ImageView
             android:id="@+id/iv_privatesupermarketcartcount"
-           android:layout_width="50dp"
+            android:layout_width="50dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
@@ -42,28 +42,26 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <android.support.v4.view.ViewPager
             android:id="@+id/vp_supmarket_ad"
             android:layout_width="match_parent"
-            android:layout_height="150dp" >
-        </android.support.v4.view.ViewPager>
+            android:layout_height="150dp"></android.support.v4.view.ViewPager>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="20dp"
             android:layout_alignBottom="@+id/vp_supmarket_ad"
             android:orientation="vertical"
-            android:padding="6dp" >
+            android:padding="6dp">
 
             <LinearLayout
                 android:id="@+id/ad_supmarket_dot_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:orientation="horizontal" >
-            </LinearLayout>
+                android:orientation="horizontal"></LinearLayout>
         </LinearLayout>
     </RelativeLayout>
 
@@ -72,5 +70,61 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
+    <RelativeLayout
+        android:id="@+id/bottonLayout"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/n_one"
+                android:layout_gravity="center_vertical" />
+            
+            <TextView
+                android:id="@+id/goodsCount"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:text="0件商品"
+                android:textColor="@color/blue"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:text="共计：￥0.0"
+                android:textColor="@color/blue"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="差4.5元满起送价"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
 
 </LinearLayout>

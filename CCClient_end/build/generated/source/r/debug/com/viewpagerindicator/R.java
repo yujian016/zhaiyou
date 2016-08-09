@@ -84,13 +84,13 @@ public final class R {
 		public static final int default_title_indicator_top_padding = 0x7f06002f;
 	}
 	public static final class drawable {
-		public static final int vpi__tab_indicator = 0x7f020235;
-		public static final int vpi__tab_selected_focused_holo = 0x7f020236;
-		public static final int vpi__tab_selected_holo = 0x7f020237;
-		public static final int vpi__tab_selected_pressed_holo = 0x7f020238;
-		public static final int vpi__tab_unselected_focused_holo = 0x7f020239;
-		public static final int vpi__tab_unselected_holo = 0x7f02023a;
-		public static final int vpi__tab_unselected_pressed_holo = 0x7f02023b;
+		public static final int vpi__tab_indicator = 0x7f02024b;
+		public static final int vpi__tab_selected_focused_holo = 0x7f02024c;
+		public static final int vpi__tab_selected_holo = 0x7f02024d;
+		public static final int vpi__tab_selected_pressed_holo = 0x7f02024e;
+		public static final int vpi__tab_unselected_focused_holo = 0x7f02024f;
+		public static final int vpi__tab_unselected_holo = 0x7f020250;
+		public static final int vpi__tab_unselected_pressed_holo = 0x7f020251;
 	}
 	public static final class id {
 		public static final int bottom = 0x7f0a000c;
@@ -107,11 +107,11 @@ public final class R {
 		public static final int default_underline_indicator_fade_length = 0x7f0d0004;
 	}
 	public static final class style {
-		public static final int TextAppearance_TabPageIndicator = 0x7f07002e;
-		public static final int Theme_PageIndicatorDefaults = 0x7f07002f;
-		public static final int Widget = 0x7f070033;
-		public static final int Widget_IconPageIndicator = 0x7f070035;
-		public static final int Widget_TabPageIndicator = 0x7f070036;
+		public static final int TextAppearance_TabPageIndicator = 0x7f07002f;
+		public static final int Theme_PageIndicatorDefaults = 0x7f070030;
+		public static final int Widget = 0x7f070034;
+		public static final int Widget_IconPageIndicator = 0x7f070036;
+		public static final int Widget_TabPageIndicator = 0x7f070037;
 	}
 	public static final class styleable {
 		public static final int[] CirclePageIndicator = { 0x010100c4, 0x010100d4, 0x7f010000, 0x7f010007, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e };

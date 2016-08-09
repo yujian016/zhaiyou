@@ -240,14 +240,8 @@ public class ShopCartSubmitOrderActivity extends BaseActivity {
 
 				holder.item_order_choose_coupon_check = (CheckBox) view
 						.findViewById(R.id.item_order_choose_coupon_check);
-				holder.item_order_choose_coupon_img = (ImageView) view
-						.findViewById(R.id.item_order_choose_coupon_img);
 				holder.item_order_choose_coupon_detail = (TextView) view
 						.findViewById(R.id.item_order_choose_coupon_detail);
-				holder.item_order_choose_coupon_price = (TextView) view
-						.findViewById(R.id.item_order_choose_coupon_price);
-				holder.item_order_choose_coupon_desc = (TextView) view
-						.findViewById(R.id.item_order_choose_coupon_desc);
 
 				view.setTag(holder);
 			} else {
@@ -266,22 +260,9 @@ public class ShopCartSubmitOrderActivity extends BaseActivity {
 			if (!img.startsWith("http")) {
 				img = GlobalConstant.SERVER_URL + img;
 			}
-			ImageLoader.getInstance().displayImage(img,
-					holder.item_order_choose_coupon_img,
-					ImageLoaderOption.getoption());
 
-			holder.item_order_choose_coupon_detail.setText(bean.getDetail());
+			holder.item_order_choose_coupon_detail.setText("可使用优惠券抵扣"+bean.getCoupon_price()+"元");
 
-			holder.item_order_choose_coupon_price.setText("￥"
-					+ bean.getCoupon_price());
-
-			int money = bean.getUse_coupon_money();
-			if (money > 0) {
-				holder.item_order_choose_coupon_desc.setText("满" + money
-						+ "元可用");
-			} else {
-				holder.item_order_choose_coupon_desc.setText("无使用限制");
-			}
 
 			view.setOnClickListener(new OnClickListener() {
 				@Override
@@ -323,10 +304,7 @@ public class ShopCartSubmitOrderActivity extends BaseActivity {
 
 		class ViewHolder {
 			CheckBox item_order_choose_coupon_check;
-			ImageView item_order_choose_coupon_img;
 			TextView item_order_choose_coupon_detail;
-			TextView item_order_choose_coupon_price;
-			TextView item_order_choose_coupon_desc;
 		}
 
 	}

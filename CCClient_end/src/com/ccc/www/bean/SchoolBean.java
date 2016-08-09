@@ -1,10 +1,14 @@
 package com.ccc.www.bean;
 
+import java.util.List;
+
 public class SchoolBean {
 	int id;
 
 	private String school_name;
 	private String school_address;
+	private boolean isExpand=false;
+	private List<DormitoryBean> dormitoryBeanList;
 
 	public int getId() {
 		return id;
@@ -28,6 +32,22 @@ public class SchoolBean {
 
 	public void setSchool_address(String school_address) {
 		this.school_address = school_address;
+	}
+
+	public boolean isExpand() {
+		return isExpand;
+	}
+
+	public void setIsExpand(boolean isExpand) {
+		this.isExpand = isExpand;
+	}
+
+	public List<DormitoryBean> getDormitoryBeanList() {
+		return dormitoryBeanList;
+	}
+
+	public void setDormitoryBeanList(List<DormitoryBean> dormitoryBeanList) {
+		this.dormitoryBeanList = dormitoryBeanList;
 	}
 
 	public SchoolBean(int id, String school_name, String school_address) {

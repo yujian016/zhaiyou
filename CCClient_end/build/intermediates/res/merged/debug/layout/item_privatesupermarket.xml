@@ -2,72 +2,72 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#fff"
-    android:orientation="horizontal" >
+    android:background="@drawable/bg_gridview_item"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/item_privatesupermarket_img"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
         android:background="@null"
         android:scaleType="fitXY"
         android:src="@drawable/imageloader_white_bg" />
 
-    <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center_vertical" >
+    <TextView
+        android:id="@+id/item_privatesupermarket_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="方便面"
+        android:textColor="#000"
+        android:textSize="16sp" />
 
-        <LinearLayout
+    <TextView
+        android:id="@+id/item_privatesupermarket_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="库存:12"
+        android:textSize="10sp" />
+
+    <RelativeLayout
+        android:paddingLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/item_privatesupermarket_price"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_margin="10dp"
-            android:orientation="vertical" >
-
-            <TextView
-                android:id="@+id/item_privatesupermarket_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:singleLine="true"
-                android:text="方便面"
-                android:textColor="#000"
-                android:textSize="16sp" />
-			<TextView
-                android:id="@+id/item_privatesupermarket_num"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="5dp"
-                android:text="库存:12"
-                android:textSize="10sp" />
-			
-            <TextView
-                android:id="@+id/item_privatesupermarket_price"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="3.00元"
-                android:textColor="#f00" />
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3.00元"
+            android:textColor="@color/blue" />
 
         <LinearLayout
+            android:layout_centerVertical="true"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="10dp"
             android:layout_marginTop="5dp"
             android:gravity="right|center_vertical"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/iv_privatesupermarket_minus"
                 android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:src="@drawable/minus" />
+                android:layout_height="18dp" />
 
             <TextView
                 android:id="@+id/tv_privatesupermarket_count"
@@ -78,7 +78,7 @@
                 android:background="#fff"
                 android:gravity="center"
                 android:text="0"
-                android:textColor="#f00"
+                android:textColor="@color/blue"
                 android:textSize="13sp"
                 android:textStyle="bold" />
 
@@ -87,8 +87,9 @@
                 android:layout_width="18dp"
                 android:layout_height="18dp"
                 android:layout_marginRight="1dp"
-                android:src="@drawable/plus" />
+                android:src="@drawable/btn_plus_blue" />
         </LinearLayout>
-    </FrameLayout>
+
+    </RelativeLayout>
 
 </LinearLayout><!-- From: file:/D:/waibaoworkpace/CCClient_end/res/layout/item_privatesupermarket.xml -->
